@@ -1,0 +1,17 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Prima lezione: Introduzione}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Teoria dei grafi}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Metodi di conteggio}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Relazioni di ricorrenza}{5}{subsection.1.3}
+\contentsline {section}{\numberline {2}Seconda lezione: i grafi}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Grafi non orientati}{6}{subsection.2.1}
+\contentsline {paragraph}{Due propriet\IeC {\`a} fondamentali}{6}{section*.2}
+\contentsline {subsubsection}{\numberline {2.1.1}Terminologia}{6}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Alcuni grafi}{7}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Grafi orientati}{8}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Terminologia}{8}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Propriet\IeC {\`a} dei grafi orientati}{9}{subsubsection.2.2.2}
+\contentsline {paragraph}{Teorema}{9}{section*.3}
+\contentsline {paragraph}{Tornei:}{9}{section*.4}
+\contentsline {subsubsection}{\numberline {2.2.3}Rappresentazione di grafi mediante matrici}{9}{subsubsection.2.2.3}

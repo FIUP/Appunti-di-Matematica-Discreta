@@ -1,0 +1,276 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[english,italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{hyperref}
+
+\usepackage{graphicx} %img/media
+\usepackage{enumitem} %lists
+\usepackage{listings} %coding environment 
+\usepackage{mathtools} %math package
+\usepackage{amssymb}
+
+
+\begin{document}
+    \author{Sara Righetto}
+    \title{Appunti di Matematica Discreta}
+
+    \maketitle
+
+    \newpage
+    \tableofcontents
+
+    \newpage
+
+    \begin{abstract}
+        La matematica discreta, è lo studio di strutture matematiche che sono fondamentalmente discrete, nel senso che non
+    richiedono il concetto di continuità che voi vedete nei corsi di analisi. \par
+    La maggior parte degli oggetti studiati nella matematica discreta sono insiemi numerabili come i numeri interi o
+    insiemi finiti, come gli interi da 1 a k. \par
+    Altri oggetti importanti sono i grafi, che modellano reti di connessione. \\
+
+        La matematica discreta è diventata famosa per le sue applicazioni in informatica. I concetti e le notazioni della matematica discreta sono utili per lo studio o la modellazione di oggetti o problemi negli algoritmi informatici e nei linguaggi di programmazione.
+    \end{abstract}
+
+\begin{center}
+    \textit{Argomenti:}
+    \begin{enumerate}
+        \item Teoria dei grafi 
+        \item Metodi di conteggio
+        \item Relazioni di ricorrenza
+    \end{enumerate}
+\end{center}
+
+    \newpage
+
+
+%PRIMA LEZIONE
+    \section{Prima lezione: Introduzione}
+
+    \subsection{Teoria dei grafi}
+        Grafo = G(V,E) \par
+        \textbf{Planarità di un circuito stampato:} 
+Nei circuiti stampati, le componenti elettroniche sono collegate da piste conduttrici stampate su una tavoletta
+isolante; queste piste non si possono incrociare.\\
+
+\textsc{Problema del postino cinese} \\
+Un postino deve consegnare la posta nelle seguenti strade. Può partire da A e tornare in A senza percorrere due volte
+la medesima strada ? \par
+Equivalente: Disegnare la seguente figura senza sollevare la penna dal foglio (partendo e tornando in un punto
+arbitrario) \\
+
+\textsc{Spelling checker} \\
+Cercare una parola nel dizionario. Zucca: si ricorre all'uso degli alberi binari \\
+
+\textsc{Torneo ad eliminazione} \\
+16 Giocatori: Torneo ad eliminazione diretta. Anche in questo caso si usano gli alberi binari.
+
+\subsection{Metodi di conteggio} 
+Contare un numero (finito) di oggetti non è sempre facile ma è un problema che si pone spesso in
+informatica: Per esempio contare le operazioni fatte da un algoritmo per misurarne l'efficenza. \\
+
+\textsc{Metodi di conteggio = Enumerazione = Calcolo combinatorio}
+ \\
+
+\begin{itemize}
+        \item Numero di parole con un fissato alfabeto
+\item Numero di sequenze binarie, numero di sottoinsiemi di n elementi
+\item Numero di soluzioni intere di una data equazione lineare
+\item Numero di targhe automobilistiche
+\item Probabilità discreta: Quale è la probabilità che 4 carte diano un poker? (d'assi?)
+\end{itemize}
+
+\subsection{Relazioni di ricorrenza}
+    Spesso è difficile calcolare direttamente una quantità (come il numero K\ped{n}
+di sottoinsiemi di n
+elementi con una data proprietà). E' più semplice trovare una relazione di ricorrenza che
+determina \textit{K\ped{n} in funzione di K\ped{n-1}}. \\
+
+\textsc{Relazioni di ricorrenza = Equazioni alle differenze finite}
+ \\
+
+Problemi ricorsivi:
+\begin{enumerate}
+\item calcolo del determinante di una matrice quadrata
+\item numeri di Fibonacci
+\item calcolo di n!
+\item Torre di Hanoi
+\end{enumerate} 
+
+\par
+\texttt{Esempio 1.1:} \par
+    \textit{a}\ped{n} = \textit{a}\ped{n-1} * n \rightarrow \textsc{relazione di ricorrenza} \par
+    \textit{a}\ped{0} = 1 \rightarrow \textsc{condizione iniziale} \\
+
+    \textit{a}\ped{n} = n!  \rightarrow \textsc{soluzione} \\
+
+\par
+\texttt{Esempio 1.2:} \par
+\textbf{Evoluzione di un capitale investito in banca:}  All'anno 0 investo 1000EUR. Il mio investimento da un interesse del 4 \% annuo. Dopo n anni quanto e' il mio capitale? \\
+
+\textit{a}\ped{0} = 1000 \par
+\textit{a}\ped{1} = 1000 + $\frac{4}{100}$ * 1000 = 1.04 * \textit{a}\ped{0} \par
+\textit{a}\ped{n} = (1.04) * \textit{a}\ped{n-1} \rightarrow \textsc{relazione di ricorrenza} \par
+
+\textit{a}\ped{2} = 1.04 * \textit{a}\ped{1} = (1.04)^2 * \textit{a}\ped{0} \par
+
+\textit{a}\ped{n} = (1.04)^n * \textit{a}\ped{0} \rightarrow \textsc{soluzione} 
+\\
+
+\texttt{Esempio 2:} \par
+\textbf{Calcolare il massimo di una stringa ($x_1$, .. , $x_n$ ) di n numeri} \par
+
+$a_n$ = numero di confronti necessari per calcolare il massimo di una stringa di lunghezza n \\
+
+\textit{a}\ped{n} = \textit{a}\ped{n/2} + \textit{a}\ped{n/2} +1 \rightarrow \textsc{relazione di ricorrenza} \par
+
+\textit{a}\ped{2} = 1 \rightarrow \textsc{soluzione} \par 
+
+\newpage
+
+
+%SECONDA LEZIONE
+
+\section{Seconda lezione: i grafi}
+\subsection{Grafi non orientati}
+    \textsc{definizione:} un grafo (non orientato) è una coppia G(V,E), dove:
+    \begin{itemize}
+\item V={v1, ...,vn} è un insieme finito di vertici (nodi)
+\item E è un insieme di archi che sono coppie non ordinate i vertici
+    \end{itemize}
+
+\textit{ex:} \par
+V = \{ v\ped{1}, .. , v\ped{8} \} \par
+E = \{ (v\ped{1}, v\ped{3}), (v\ped{1}, v\ped{7}), (v\ped{2}, v\ped{3}), .. \} \\
+
+Definizioni:
+\begin{itemize}
+    \item estremi di un arco
+    \item arco incidente nei suoi estremi
+    \item vertici adiacenti (nonadiacenti) : sono gli estremi di un arco
+    \item grado d(v) del vertice v: Numero di volte in cui v è estremo di un arco. d(v3)=3, d(v8)=0
+\end{itemize}
+
+\paragraph{Due proprietà fondamentali} \par
+    Per ogni grafo G(V, E) vale la seguente relazione: \par
+
+\begin{center}
+    \sum \ped{v \in V} d(v) = 2 \mid E \mid \\
+
+\end{center}
+
+    Poichè ogni arco ha 2 estremi, contribuisce 2 alla somma dei gradi. \\
+    \textsc{CONSEGUENZA:} Ogni grafo ha un numero pari di vertici di grado dispari. \\
+    Ogni grafo semplice ha al massimo \left( \begin{array}{c} n \\ 2 \end{array} \right) = $\frac{n(n-1)}{2}$ archi dove n= \mid V \mid. \par
+    \left( \begin{array}{c} n \\ 2 \end{array} \right) è il numero di coppie non ordinate di n elementi.
+
+\subsubsection{Terminologia}
+
+\textbf{Cammino:} sequenza di vertici distinti, dove ogni
+coppia di vertici consecutivi nel cammino è
+collegata da un arco. \par
+\textbf{Circuito o ciclo:} cammino nel quale il primo e
+l'ultimo vertice sono coincidenti \par
+\textbf{Lunghezza:} Numero di archi.\par
+\textbf{Pari, dispari:} Parita' della lunghezza. \par
+\textbf{Connesso:} per ogni coppia di vertici esiste un
+cammino che li collega \par
+\textbf{Percorso:} sequenza di vertici \textsc{NON NECESSARIAMENTE} distinti, dove ogni coppia di vertici
+consecutivi nel percorso è collegata da un arco. (Cioe' e' una maniera di attraversare parte del
+grafo, possibilmente passando piu' di una volta per lo stesso vertice o arco). Un percorso e' chiuso
+se le estremita' coincidono. \\
+
+\textbf{Teorema:} Dato un percorso con estremita' v\ped{1}, v\ped{n} esiste un cammino con estremita' v\ped{1}, v\ped{n} \par
+\textbf{Teorema:} Un percorso chiuso di lunghezza dispari contiene un ciclo di lunghezza dispari. \\
+Se gli unici vertici coincidenti sono le estremita' allora il percorso e' un ciclo dispari. Altrimenti il percorso si partiziona in due percorsi di lunghezza minore, uno pari e l'altro dispari. \par
+
+\subsubsection{Alcuni grafi} \par
+\textbf{Grafo completo:} ogni coppia di vertici è adiacente. E' denominato $K_n$ (n è il numero di vertici) \par
+\textbf{Bipartito:} i vertici sono partizionabili in due sottoinsiemi, U e W, e ogni arco è incidente in un vertice di U e uno di W. \par
+\textbf{Grafo bipartito completo $K_n1,n2$} Grafo bipartito, le due parti della bipartizione hanno \ped{n1}, \ped{n2} vertici rispettivamente ed ogni vertice di una parte è adiacente a tutti i vertici della seconda parte. \par
+\textbf{Foresta:} Grafo senza cicli (=aciclico) \par
+\textbf{Albero:} Foresta connessa. \par
+Un grafo è K-regolare se ogni nodo ha grado k. I grafi 3-regolari si chiamano \textsc{grafi cubici}. \\
+
+
+\textbf{Disegnare un grafo} \par
+ Un "disegno" di un grafo ne illustra le proprietà. Ma i "disegni" dello stesso grafo sono molteplici. Noi
+diremo che due grafi sono \textsc{ISOMORFI} se uno è il disegno dell'altro. \\
+Formalmente, G(V,E) e G’(V’, E’) sono isomorfi se esiste una biezione F: che porta V in V’ e che preserva le
+adiacenze. Cioè uv è un arco di G se e solo se f(u)f(v) è un arco di G’. \\
+
+\textbf{Multigrafi} Finora abbiamo visto grafi SEMPLICI, perche' fra ogni coppia di vertici c'e' al massimo un arco. In generale possono esserci ARCHI PARALLELI, cioe' archi che hanno le stesse estremita' e CAPPI: Archi
+con le estremita' coincidenti. Tali grafi si dicono MULTIGRAFI. \par
+\textit{GRADO DI UN NODO:} I cappi contribuiscono 2 al grado dell'unica estremità.\\
+
+\textbf{Sottografi:} Un sottografo di un grafo G(V,E) è un grafo G'(V', E') con V'\subseteq V e E'\subseteq E. \par
+Dato G(V,E) un suo sottografo G'(V',E') si dice \textsc{indotto} da V' se E' è il sottoinsieme di archi in E con entrambe le estremità in V'. Cioè per ogni arco (u,v) \in E, se u \in V' e v \in V' allora (u,v) \in E'. \\
+
+
+\subsection{Grafi orientati}
+\textsc{Definizione:} un grafo orientato è una coppia D(V,A), dove: \par
+V={v\ped{1}, ...,v\ped{n}} è un insieme finito di nodi o vertici. L'insieme A di archi è un insieme di coppie ORDINATE di vertici. Intuitivamente. Un arco ha un senso di percorrenza, dalla testa alla coda. \\
+
+Nodo iniziale e finale di uno arco = coda e testa dell'arco\\
+\begin{itemize}
+\item \textbf{Archi paralleli:} hanno la stessa testa e la stessa coda.
+\item \textbf{Cappio:}la testa e la coda coincidono.
+\end{itemize}
+\textbf{Grafo orientato Semplice:} non ci sono cappi e nemmeno archi paralleli.
+\textbf{Multigrafo orientato:} ci sono cappi e archi paralleli. \\
+
+\subsubsection{Terminologia}
+\textbf{Cammino orientato:} sequenza di nodi distinti, dove ogni coppia di nodi consecutivi nel cammino è
+collegata da un arco (nodo iniziale, nodo finale) \par
+\textbf{Lunghezza del cammino:} numero di archi nel cammino. \\
+
+Un grafo orientato e' \textit{Fortemente Connesso:} per ogni coppia di nodi u, v esiste un cammino orientato da u
+a v ed un cammino orientato da v a u. \\
+
+\textbf{Circuito:} cammino nel quale il primo nodo coincide con l'ultimo. \par
+\textbf{Lunghezza del circuito:} numero di archi. \par
+\textbf{Parità del circuito:} parità della lunghezza. \\
+
+\subsubsection{Proprietà dei grafi orientati}
+\textbf{\textit{Semplice} massimo numero di archi}: numero di coppie ORDINATE di n=\mid V \mid elementi. \par
+\textbf{In-degree(v)} = Grado entrante di un nodo v: numero di archi entranti in v \Rightarrow d$^in$(v) \par
+\textbf{Out-degree(v)} = Grado uscente di un nodo v: numero di archi uscenti da v \Rightarrow d$^out$(v) \\
+
+Per ogni grafo orientato D(V,A) vale: \mid A \mid = \sum $_v \in V$ d$^in$(v) = \sum $_v \in V$ d$^out$(v). \\
+
+\paragraph{Teorema} \\
+
+In ogni grafo orientato D(V,A), sono uguali tra loro:
+\begin{itemize}
+\item la somma dei gradi uscenti dei nodi
+\item la somma dei gradi entranti dei nodi
+\item il numero di archi del grafo
+\end{itemize}
+
+\begin{center}
+\sum\ped{v \in V} d$^out$(v) = \sum\ped{v \in V} d$^in$(v) = \mid A \mid \\
+
+\end{center}
+
+Un arco uv un contribuisce 1 a d$^out$(v) e 1 a d$^in$(v)
+\\
+
+\paragraph{Tornei:} \\
+
+Un \textit{TORNEO} è un grafo orientato in cui per ogni coppia di vertici esiste \textsc{ESATTEMENTE} uno degli archi uv , uv. \par
+(Si chiamano tornei (tournaments) perche indicano gli esiti di un torneo e il senso di ogni arco indica l'esito dell'incontro fra i giocatori rappresentati dai suoi estremi).
+
+\subsubsection{Rappresentazione di grafi mediante matrici}
+\begin{enumerate}
+\item \textsc{Matrice di incidenza vertici/archi}
+\item \textsc{Matrice di incidenza nodi/archi}
+\item \textsc{Matrice di adiacenza vertici/vertici o nodi/nodi}
+\item List of edges, linked adjacency list, forward star, backward star ect..
+\end{enumerate}
+
+
+\textbf{}
+
+\end{document}
