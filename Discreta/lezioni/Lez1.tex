@@ -1,0 +1,81 @@
+
+    \section{Prima lezione: Introduzione}
+
+    \subsection{Teoria dei grafi}
+        Grafo = G(V,E) \\
+        \textbf{Planarità di un circuito stampato:} 
+Nei circuiti stampati, le componenti elettroniche sono collegate da piste conduttrici stampate su una tavoletta
+isolante; queste piste non si possono incrociare.\\
+
+\textsc{Problema del postino cinese} \\
+Un postino deve consegnare la posta nelle seguenti strade. Può partire da A e tornare in A senza percorrere due volte
+la medesima strada ? \\
+Equivalente: Disegnare la seguente figura senza sollevare la penna dal foglio (partendo e tornando in un punto
+arbitrario) \\
+
+\textsc{Spelling checker} \\
+Cercare una parola nel dizionario. Zucca: si ricorre all'uso degli alberi binari \\
+
+\textsc{Torneo ad eliminazione} \\
+16 Giocatori: Torneo ad eliminazione diretta. Anche in questo caso si usano gli alberi binari.
+
+\subsection{Metodi di conteggio} 
+Contare un numero (finito) di oggetti non è sempre facile ma è un problema che si pone spesso in
+informatica: per esempio contare le operazioni fatte da un algoritmo per misurarne l'efficienza. \\
+\begin{center}
+\textsc{Metodi di conteggio $=$ Enumerazione $=$ Calcolo combinatorio}
+\end{center} 
+
+\textit{Esempi:} 
+\begin{itemize}
+        \item Numero di parole con un fissato alfabeto
+\item Numero di sequenze binarie, numero di sottoinsiemi di n elementi
+\item Numero di soluzioni intere di una data equazione lineare
+\item Numero di targhe automobilistiche
+\item Probabilità discreta: Quale è la probabilità che 4 carte diano un poker? (d'assi?)
+\end{itemize}
+
+\subsection{Relazioni di ricorrenza}
+Spesso è difficile calcolare direttamente una quantità (come il numero \( K\ped{n}\)
+di sottoinsiemi di n
+elementi con una data proprietà). E' più semplice trovare una relazione di ricorrenza che
+determina \( K\ped{n} \) in funzione di \( K\ped{n-1} \). \\
+\begin{center}
+\textsc{Relazioni di ricorrenza $=$ Equazioni alle differenze finite}
+\end{center}
+
+Problemi ricorsivi:
+\begin{enumerate}
+\item Calcolo del determinante di una matrice quadrata
+\item Numeri di Fibonacci
+\item Calcolo di n!
+\item Torre di Hanoi
+\end{enumerate} 
+
+\texttt{Esempio 1.1:} \par
+    \(a\ped{n} = a\ped{n-1} * n \rightarrow \) \textsc{relazione di ricorrenza} \par
+    \(a\ped{0} = 1 \rightarrow \) \textsc{condizione iniziale} \\
+
+    \( a\ped{n} = n! \rightarrow \) \textsc{soluzione} \\
+
+\texttt{Esempio 1.2:} \\
+\textbf{Evoluzione di un capitale investito in banca:}  All'anno 0 investo 1000EUR. Il mio investimento dà un interesse del 4 \% annuo. Dopo n anni quanto e' il mio capitale? \\
+
+\(a\ped{0} = 1000 \) \par
+\(a\ped{1} = 1000 + \frac{4}{100} * 1000 = 1.04 * a\ped{0} \) \par
+\(a\ped{n} = (1.04) * a\ped{n-1} \rightarrow \) \textsc{relazione di ricorrenza} \par
+
+\(a\ped{2} = 1.04 * a\ped{1} = (1.04)^2 * a\ped{0} \) \par
+
+\(a\ped{n} = (1.04)^n * a\ped{0} \rightarrow \) \textsc{soluzione} 
+\\
+
+\texttt{Esempio 2:} \\
+\textbf{Calcolare il massimo di una stringa ($x_1$, .. , $x_n$ ) di n numeri} \\
+$a_n$ $=$ numero di confronti necessari per calcolare il massimo di una stringa di lunghezza n \\
+
+\( a\ped{n} = a\ped{n/2} + a\ped{n/2} +1 \rightarrow \) \textsc{relazione di ricorrenza} \par
+
+\( a\ped{2} = 1 \rightarrow \) \textsc{soluzione} \par 
+
+\newpage

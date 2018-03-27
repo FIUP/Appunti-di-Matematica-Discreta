@@ -1,0 +1,114 @@
+\section{Terza lezione: Connettività}
+
+Ricordiamo: dato G(V,E) u,v sono connessi se esiste un cammino con estremità u, v. \\
+La CONNESSIONE ha le seguenti proprietà:
+\begin{itemize}
+\item u è connesso a se stesso . \( \rightarrow \) \emph{riflessività}
+\item u,v connessi, v,u connessi. \( \rightarrow \) \emph{simmetria} 
+\item u,t connessi, t,v, connessi, allora u,v connessi \( \rightarrow \) \emph{transitività}
+\end{itemize}
+Queste proprietà implicano che esiste una \emph{partizione} di V in parti \(V1,...Vk \) dove: \\
+u,v sono connessi se appartengono alla stessa parte. \\
+Queste parti sono le COMPONENTI CONNESSE di G. \\
+G è \emph{connesso} se c'è una sola parte! \((k=1)\). \\
+
+Dato \( S \subseteq V \) definiamo il \emph{taglio} associato ad S come l'insieme di archi. \\
+\( \delta(S) = \{ \{uv\} \in E , \mid S \cap \{u, v\} \mid = 1\} \) \\
+e diciamo che $\delta(S)$ \emph{separa} $u,v$ se \( \mid S \cap u,v \mid =1 \) \\
+
+\paragraph{Teorema} 
+Dato G(V,E), vertici $u,v$ appartengono alla stessa componete connessa di G se e solo se non esiste un taglio $\delta(S) = \emptyset $
+Dimostriamo che: dato $\delta(S)$ che separa $u,v$ e $P$ cammino fra $u,v$ allora $P$ e $\delta(S)$ hanno almeno un arco in comune, cioè \(\mid P \cap \delta(S) \mid \geq 1\)\\
+Se $\delta(S) \neq \emptyset$ per ogni taglio $\delta(S)$ che separa $u,v$ allora esiste un cammino fra $u,v$. \\
+
+\subsection{Calcolo delle componenti connesse}
+
+\textbf{Input: }G(V,E), v in V \\
+\textbf{Output:} Componente connessa C che contiene v \\
+\begin{itemize}
+\item Poni $v \in C$ e dichiara $v$ non esaminato
+\item \emph{esame vertice:} scegli $x \in C$ non esaminato. Aggiungi a $C$ ongi vertice adiacente a $x$ che non è in $C$.
+\item \emph{stop} quando ogni vertice in $C$ è esaminato.
+\item $C$ è la componente connessa che contiene $v$.
+\end{itemize}
+Sia $C$ componente connessa che contiene $v$ calcolata dall'algoritmo. Si noti che \(\delta(S) = \emptyset \)
+
+\subsection{Connettività}
+Ricordiamo: un grafo non orientato G(V,E) si dice \emph{connesso} se, per ogni coppia di vertici, esiste
+un cammino che li collega, altrimenti si dice \emph{disconnesso}. \\
+Le componenti connesse di un grafo sono i suoi sottografi connessi massimali. \\
+
+\paragraph{Connettività sugli archi} Arco connettività fra \( u,v = K^E_{uv} (G)\) \\
+Cardinalità minima di un taglio che separa \( u,v = min \{ \mid \delta(S) \mid : S \) separa \( u,v \}\) \\
+Ricordiamo: dato G(V,E) u,v in componenti connesse distinte se e solo se \(K^E_{uv} (G) =0\) \\
+Conseguenza: \(K^E_{uv} (G)\) è il minimo numero di archi da togliere a G affinchè u,v diventino disconnessi. \\
+
+\paragraph{Teorema} Per ogni \( u,v K^E_{uv} (G)\) è il massimo numero di cammini con estremità $u,v$ che non hanno archi in comune (disgiunti sugli archi). \\
+
+Ricordiamo che: G(V,E) connesso se e solo se non esiste \( \delta(S)\) che separa due vertici tali che \( \delta(S) = \emptyset \) \\
+
+Definiamo: arco connettività di G $K^E(G) =$ minimo numero di archi da togliere affinchè G sia disconnesso $=$ cardinalità minima di un taglio che separa almeno 2 vertici. \\
+Allora: \( K^E(G) = \min K^E_{uv} (G)\)\\
+
+\subsubsection{Connettività (sui vertici)}
+
+Dato G(V,E) grafo connesso, semplice e non completo: \\
+\emph{Connettività (sui vertici) K(G)} $=$ minimo numero di vertici la cui rimozione trasforma G in un grafo
+sconnesso (= non connesso). \\
+
+Vertex cutset = insieme di vertici $U \subseteq V $con le due seguenti proprietà:
+\begin{itemize}
+\item la rimozione di tutti i vertici di U trasforma G in un grafo sconnesso;
+\item la rimozione di alcuni dei vertici di U, ma non tutti, lascia il grafo connesso.
+\end{itemize}
+
+Quindi, se G non è completo: \(K(G) = \) cardinalità del vertex cutset di G di cardinalità minima.\\
+Un grafo completo con n vertici non ha vertex cutsets.
+Per convenzione, la connettività sui vertici di un grafo completo con n vertici è posta uguale a n-1.\\
+
+\subsubsection{Disequazioni}
+\paragraph{Teorema} Sia G(V,E) grafo con almeno due vertici. Allora:
+\[ K(G) \leq K^E(G) \leq \delta(G) \]
+dove il simbolo d(G) indica il grado del vertice di grado minimo di G: \(\delta(G) = \min {d(v) v \in V} \)  \\
+In particolare, se G è il grafo completo con n vertici, $n \geq 2$, allora \(K(G) = K^E(G) = \delta(G) =n-1\) \\
+Se $G = K_n$ allora \(K(G) = n-1 \leq  K(G) \leq \delta(G) = n-1\), allora \(\lambda(G) =n-1 \) \\
+
+\subsection{Affidabilità di una rete}
+
+Rete di comunicazione tra soggetti: è necessario fornire percorsi alternativi di comunicazione, per fronteggiare:
+\begin{itemize}
+\item inattività di un soggetto;
+\item guasto di una linea;
+\item carico eccessivo di una linea, che superi la sua capacità.
+\end{itemize}
+
+Dato G grafo:
+\begin{itemize}
+\item per ogni coppia di nodi esistono almeno Ke(G) cammini alternativi che li collegano (tali che non ci
+siano due cammini che usano qualche arco in comune);
+\item per ogni coppia di nodi esistono almeno K(G) cammini alternativi che li collegano (tali che non ci
+siano due cammini che usano qualche vertice in comune).
+\end{itemize}
+In generale vale la seguente formula: \\
+\[K(G) \leq Ke(G) \leq d(G) \leq 2 \frac{ \mid E \mid}{\mid V \mid} \] grado medio in $G =$ media \[ \{ gr(v) : v \in V \} = \frac{\sum(v \in V) gr(v)}{ \mid V \mid} = \frac{2 \mid E \mid}{\mid V \mid} \] \\
+Si dice che un grafo ha connettività ottima se vale \[ K(G) = Ke(g) = d(G) = 2 \frac{\mid E \mid}{\mid V \mid} \] \\
+Proprietà:
+\begin{enumerate}
+\item ha massima connettività sugli archi e sui vertici tra tutti i grafi con $\mid V \mid$ vertici e $\mid E \mid$ archi
+\item è $\delta$ -regolare
+\end{enumerate}
+
+\(K^E_{uv} (G) =\) numero massimo di cammini con estremità $u,v$ che non hanno archi in comune. \\
+\(K_{uv} (G) =\) numero massimo di cammini con estremità $u,v$ che non hanno nodi intermedi in comune. \\
+
+
+
+
+
+
+
+
+
+
+
+\newpage

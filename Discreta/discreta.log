@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.27)  22 MAR 2018 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.27)  27 MAR 2018 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,12 +719,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count135
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -735,12 +735,198 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `discreta.toc'.
 
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[3] (./lezioni/Lez1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+
+ []
+
+[4]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Overfull \hbox (12.23083pt too wide) in paragraph at lines 61--63
+\T1/cmr/bx/n/12 Evoluzione di un ca-pi-ta-le in-ve-sti-to in ban-ca: \T1/cmr/m/
+n/12 Al-l'an-no 0 in-ve-sto 1000EUR.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+[5]) (./lezioni/Lez2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+
+ []
+
+[9] [10]) (./lezioni/Lez3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+[14]) (./lezioni/Lez4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--15
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
  []
 
@@ -749,171 +935,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 105.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 200--204
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--223
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-Overfull \hbox (23.55522pt too wide) in paragraph at lines 262--263
-[]\T1/cmr/m/n/12 Per ogni gra-fo orien-ta-to D(V,A) va-le: $\OMS/cmsy/m/n/12 j 
-\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 = [] []\OML/cmm/m/it/12 d[
-]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 ) = [] []\OML/cmm/m/it/12 d
-[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 . 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--277
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+[16])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (./discreta.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `discreta.out' has not changed.
-(rerunfilecheck)             Checksum: BA43BFD31FECA5C5CCB665B254341F0A;866.
+(rerunfilecheck)             Checksum: 0F79C831EB209F4363DFAA7B84D5F942;1813.
  ) 
 Here is how much of TeX's memory you used:
- 9497 strings out of 493029
- 133683 string characters out of 6136234
- 232796 words of memory out of 5000000
- 12853 multiletter control sequences out of 15000+600000
+ 9548 strings out of 493029
+ 134353 string characters out of 6136234
+ 233812 words of memory out of 5000000
+ 12865 multiletter control sequences out of 15000+600000
  20971 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,8n,32p,800b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,8n,32p,800b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -931,10 +969,10 @@ frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sh
 are/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 ti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on discreta.pdf (10 pages, 303189 bytes).
+Output written on discreta.pdf (16 pages, 336092 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
