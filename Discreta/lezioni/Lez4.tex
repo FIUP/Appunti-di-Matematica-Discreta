@@ -1,8 +1,8 @@
 \section{Quarta lezione: Grafi bipartiti e isomorfi}
 \subsection{Grafi bipartiti}
 
-Ricordiamo che: Un grafo G(V,E) è bipartito se il suo insieme di vertici può essere partizionato in due
-sottoinsiemi, $V_1$ e $V_2$, in modo che ogni arco ha un estremita' in $V1$ e l'altra in $V2$. Scriveremo G($V_1$, $V_2$; E). \\
+Ricordiamo che: un grafo G(V,E) è bipartito se il suo insieme di vertici può essere partizionato in due
+sottoinsiemi, $V_1$ e $V_2$, in modo che ogni arco ha un estremità in $V1$ e l'altra in $V2$. Scriveremo G($V_1$, $V_2$; E). \\
 Massimo numero di archi in un grafo bipartito semplice: \( \mid V_1 \mid * \mid V_2 \mid \) 
 
 \subsubsection{Condizione necessaria E sufficiente} 
@@ -12,7 +12,6 @@ G'(V',E') sottografo di G(V,E), G' è nonbipartito, allora anche G è nonbiparti
 \textbf{Osservazione 2:} Se G(V,E) è bipartito con bipartizione V1 e V2, sia v un vertice. Posso assumere senza perdita di generalità v in V1. Allora tutti I vertici adiacenti a v DEVONO stare in V2. \\
 Cioe' se v in V1, allora l' arco vu "forza" u in V2.\\
 \textbf{Osservazione 3:} Se G(V,E) contiene un ciclo dispari come sottografo, allora G(V,E) \emph{non} è bipartito.\\
-
 \paragraph{Teorema:} 
 Un grafo G(V,E) è bipartito se e solo se G non contiene un ciclo di lunghezza dispari. \\
 Per quanto detto sopra, se G contiene un ciclo dispari, G \emph{non} è bipartito. \\
@@ -41,7 +40,6 @@ Per ogni componente connessa di G(V,E):
 Due grafi G(V,E) e G'(V',E') sono isomorfi se esiste una corrispondenza biunivoca (isomorfismo) tra i
 vertici di V e quelli di V' tale che: \\
 due vertici di V sono adiacenti in G se e solo se i corrispondenti vertici di V' sono adiacenti in G'. \\
-
 \paragraph{Determinare se due grafi sono isomorfi:}
 Per farlo bisogna cercare l'isomorfismo. \\
 Se due grafi sono isomorfi:
@@ -59,7 +57,7 @@ Due grafi sono isomorfi se:
 \item hanno lo stesso numero di vertici con lo \emph{stesso grado}
 \item i complementari devono essere isomorfi
 \item hanno gli stessi sottografi indotti.
-\end{itemize} \par
+\end{itemize}
 Se le prime 3 condizioni sono verificate, costruisco il possibile isomorfismo accoppiando vertici dello
 stesso grado, controllando che la condizione 5 via verificata. \\
 

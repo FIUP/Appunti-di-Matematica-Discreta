@@ -22,3 +22,22 @@
 \BOOKMARK [3][-]{subsubsection.4.1.2}{Algoritmo per bipartizione}{subsection.4.1}% 22
 \BOOKMARK [2][-]{subsection.4.2}{Grafi isomorfi}{section.4}% 23
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Condizioni necessarie}{subsection.4.2}% 24
+\BOOKMARK [1][-]{section.5}{Quinta lezione: Foreste, alberi e cammini}{}% 25
+\BOOKMARK [2][-]{subsection.5.1}{Definizioni}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.2}{Albero di peso minimo. Algoritmo di Kruskal.}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.3}{Esercizi}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Es.1}{subsection.5.3}% 29
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Es.2}{subsection.5.3}% 30
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Es.3}{subsection.5.3}% 31
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Es.4}{subsection.5.3}% 32
+\BOOKMARK [1][-]{section.6}{Sesta lezione: Grafi planari}{}% 33
+\BOOKMARK [2][-]{subsection.6.1}{Minori}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.2}{Teorema di Kuratowski}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.3}{Disegni equivalenti per grafi planari:}{section.6}% 36
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Metodo del cerchio e delle corde}{subsection.6.3}% 37
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Esempi}{subsection.6.3}% 38
+\BOOKMARK [2][-]{subsection.6.4}{Formula di Eulero}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.5}{Politopi convessi}{section.6}% 40
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Corollari}{subsection.6.5}% 41
+\BOOKMARK [2][-]{subsection.6.6}{Problema dei 4 colori}{section.6}% 42
+\BOOKMARK [3][-]{subsubsection.6.6.1}{Esercizi}{subsection.6.6}% 43

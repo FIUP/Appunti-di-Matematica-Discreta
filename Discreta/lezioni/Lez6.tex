@@ -1,0 +1,68 @@
+\section{Sesta lezione: Grafi planari}
+Un grafo non orientato si dice \emph{planare} se lo si può disegnare sul piano senza intersezioni tra gli archi. \\
+Tale disegno viene detto \emph{rappresentazione piana} del grafo.\\
+
+\noindent
+Come stabilire se un grafo è planare? \\
+Problema polinomiale, anche se l'algoritmo è complicato. Ne daremo una versione semplificata, chiamata il metodo del cerchio e delle corde.\\
+
+\subsection{Minori}
+Contrazione di un arco u,v. Identifico u, v in un unico vertice. Arco u,v è diventato
+un cappio ( e viene usualmente rimosso.) \\
+G'(V',E') è minore di G(V,E) se G' è ottenuto da G tramite:
+\begin{itemize}
+\item contrazione di archi
+\item rimozione di archi
+\item rimozione di vertici isolati
+\end{itemize}
+\textbf{Teorema:} G planare, G' minore di G, allora G' planare. \\
+Ognuna delle 3 operazioni applicata ad una rappresentazione piana di G, mantiene piana la rappresentazione.
+
+\subsection{Teorema di Kuratowski}
+Un grafo è planare se e solo se non contiene $K\ped{3,3}$ o $K_5$ come minore.\\
+
+\noindent
+\subsection{Disegni equivalenti per grafi planari:} Dato un grafo planare, ci sono molte sue rappresentazioni piane, tutte equivalenti. \\
+Ogni rappresentazione piana divide il piano in regioni o facce. Indichiamo con r il numero di queste
+regioni. Il numero r dipende solo dal grafo, non dalla particolare rappresentazione piana disegnata. 
+
+\subsubsection{Metodo del cerchio e delle corde}
+Dato un grafo G(V,E) non orientato:
+\begin{enumerate}
+\item trovare, se esiste, un circuito di lunghezza massima ( che
+contenga tutti i vertici del grafo, lo chiameremo circuito
+Hamiltoniano)
+\item disegnare questo circuito come un grande cerchio
+\item scrivere l'elenco degli archi del grafo che non sono
+contenuti nel circuito; li chiamiamo corde e li inseriamo
+internamente o esternamente al cerchio, cercando di
+evitare gli incroci, seguendo i passi 4 e 5
+\item scegliamo una corda e inseriamola, ad esempio,
+internamente al cerchio, togliendola dall'elenco;
+\item Tutte le corde che la incrociano debbono essere inserite
+esternamente. Se la rappresentazione e' piana,
+proseguiamo. Altrimenti il grafo non e' planare.
+\end{enumerate}
+\emph{Note:}
+\begin{itemize}
+\item Attenzione all'ordine con il quale si inseriscono le corde:
+non possiamo fare scelte, solo la prima corda può essere
+posta internamente o esternamente a nostra scelta.
+\item Questa procedura non è sempre applicabile; in
+particolare, non è applicabile se il grafo non contiene un
+circuito hamiltoniano.
+\end{itemize}
+
+\subsubsection{Esempi}
+
+\subsection{Formula di Eulero}
+
+\subsection{Politopi convessi}
+
+\subsubsection{Corollari}
+
+\subsection{Problema dei 4 colori}
+
+\subsubsection{Esercizi}
+
+\newpage
