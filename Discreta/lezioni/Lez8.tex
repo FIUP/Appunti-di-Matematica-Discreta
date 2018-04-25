@@ -1,0 +1,89 @@
+\section{Ottava lezione: Calcolo combinatorio}
+Ricordiamo dalla prima lezione: \textbf{contare} un numero (finito) di oggetti non è sempre facile ma è un
+problema che si pone spesso in informatica: per esempio contare le operazioni fatte da un algoritmo per
+misurarne l'efficenza. \\
+Vediamo \emph{due principi fondamentali} nei metodi di conteggio. 
+
+\subsection{Principio di addizione}
+\textbf{Esempio 1:} In una scuola vengono offerti due corsi opzionali, uno di scacchi e uno di violino.
+Il corso di scacchi viene frequentato da 30 studenti, quello di violino da 40.
+Quanti studenti hanno scelto corsi opzionali? \\
+
+\textbf{Principio di addizione:} Abbiamo m insiemi con le seguenti proprietà: 
+\begin{itemize}
+    \item Il primo insieme contiene $r_1$ oggetti differenti
+    \item Il secondo insieme contiene $r_2$ oggetti differenti
+    \item L' m-esimo insieme contiene $r_m$ oggetti differenti
+\end{itemize}    
+Gli insiemi sono disgiunti a due a due. \\
+Allora il numero di modi per selezionare un oggetto da uno degli insiemi è: \[r_1 + r_2+ \dots  r_k \]
+
+\subsection{Principio di moltiplicazione}
+\textbf{Esempio 2:} Lanciamo due dadi, uno verde e uno rosso, e leggiamo l'esito di questa procedura
+(ad esempio, un esito può essere "6 sul verde, 3 sul rosso").
+\begin{enumerate}
+    \item Quanti differenti esiti si possono avere?
+    \item Quanti differenti esiti si possono avere che non siano doppie (stesso valore
+    sui due dadi)?
+\end{enumerate}
+\textbf{Principio di moltiplicazione:} Abbiamo una procedura formata da m fasi successive ordinate,
+con le seguenti proprietà:
+\begin{itemize}
+    \item la prima fase ha $r_1$ esiti differenti
+    \item la seconda fase ha $r_2$ esiti differenti
+    \item la m-esima fase ha $r_m$ esiti differenti
+\end{itemize}
+Il numero degli esiti di ogni fase è indipendente dalle scelte delle fasi precedenti, gli esiti complessivi della procedura sono tutti distinti. \\
+Allora il numero dei differenti esiti della procedura è: \[ r_1  \times  r_2  \times \dots r_m\]
+
+\paragraph{Esempio 3} In uno scaffale della biblioteca ci sono 11 libri in inglese (distinti),
+7 in francese (distinti) e 4 in russo (distinti).
+In quanti modi possiamo scegliere due libri (coppia non ordinata) che non siano
+della stessa lingua?
+
+\paragraph{Esempio 4} Abbiamo a disposizione le lettere a, b, c, d, e, f per formare sequenze di lunghezza 3.
+Quante ne possiamo formare con le seguenti regole?
+\begin{itemize}
+    \item Le ripetizioni sono permesse.
+    \item Le ripetizioni sono vietate.
+    \item Le ripetizioni sono vietate; ci deve essere la lettera "e".
+    \item Le ripetizioni sono permesse; ci deve essere la lettera "e".
+\end{itemize}
+
+\subsection{Permutazioni e combinazioni semplici} 
+Dati n oggetti distinti: \(n \in N\) \\
+\textbf{Permutazione:} disposizione \emph{ordinata} di questi n oggetti. \\
+\textbf{R-permutazione:} disposizione \emph{ordinata} di questi n oggetti usando r degli n oggetti. \\
+\textbf{R-combinazioni:} sottoinsieme o selezione \emph{non ordinata} di r degli n oggetti. \\
+
+\subsection{Esempi}
+\subsubsection{Es. 1} Partecipiamo ad una gara di corsa, siamo in 100 tutti ugualmente bravi,
+arriviamo tutti al traguardo. \\ 
+Quante sono le possibili classifiche in cui io sono terza?
+
+\subsubsection{Es. 2} Quanti sono gli anagrammi della parola DETTATO, cioè quante sono le disposizioni delle sue lettere? \\ 
+E in quanti di questi anagrammi le tre "T" sono consecutive?
+
+\subsubsection{Es. 3} Quante sequenze binarie di lunghezza 8 ci sono con sei elementi uguali a "1" e due elementi uguali a "0"?
+
+\subsubsection{Es. 4} Abbiamo a disposizione 7 donne e 4 uomini, tra loro dobbiamo scegliere un comitato di k persone. 
+In quanti modi lo possiamo formare sotto le seguenti regole? 
+\begin{itemize}
+    \item Il comitato è formato da 3 donne e 2 uomini.
+    \item Il comitato può avere qualsiasi numero di aderenti, ma il
+    numero delle donne deve essere uguale al numero degli
+    uomini.
+    \item Il comitato è formato da 4 persone e una di loro deve essere il signor Rossi.
+    \item Il comitato è formato da 4 persone, e almeno due sono donne.
+    \item Il comitato è formato da 4 persone, 2 donne e 2 uomini, e il signor e la signora Rossi
+    non possono appartenerci insieme.
+\end{itemize}
+
+\subsubsection{Es. 2-bis}
+Quanti sono gli anagrammi della parola DETTATO, cioè quante sono le disposizioni delle sue lettere? \\ 
+Quanti anagrammi hanno la lettera "D" che precede la lettera "E"? \\ 
+E quanti anagrammi hanno la lettera "D" che precede la lettera "E" e le tre "T" in posizioni consecutive?
+
+
+
+\newpage

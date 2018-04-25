@@ -1,0 +1,83 @@
+\section{Settima lezione: }
+\subsection{Circuiti hamiltoniani}
+Dato G(V,E) grafo, un (circuito) ciclo Hamiltoniano di G è un ciclo che visita \textbf{ogni vertice} esattamente
+\textbf{una volta}. \\
+Il grafo G viene detto Hamiltoniano se ha un ciclo Hamiltoniano. \\
+Ricordiamo che abbiamo visto un algoritmo per testare la planarità di un grafo, conoscendo un ciclo
+Hamiltoniano. \\
+Stabilire se un grafo è Hamiltoniano è un problema difficile (NP-completo): appartiene ad una classe di
+problemi per cui non esistono algoritmi semplici e veloci che risolvano qualsiasi istanza del problema. \\
+Esistono condizioni \emph{necessarie} (che ogni grafo deve soddisfare per essere Hamiltoniano) e \emph{sufficienti} (che assicurano che un grafo che le soddisfi sia Hamiltoniano, ma non viceversa.) ma non esistono condizioni semplici che siano \emph{necessarie} e \emph{sufficienti} (contemporaneamente).\\
+
+\noindent
+\subsubsection{Condizioni necessarie}
+Osserviamo che: Ogni condizione che è verificata da un ciclo Hamiltoniano H deve essere verificata da un grafo
+che contiene H. \\
+Se G(V,E) è Hamiltoniano, allora:
+\begin{itemize}
+    \item \(d(v) \geq 2  \forall v \in V\)
+    \item \(K(G) \geq 2 \)
+    \item Più \emph{importante}: per ogni sottoinsieme S di V, abbiamo \( |S| \geq \) delle componenti connesse di \(G \setminus S\).
+\end{itemize}
+
+\subsubsection{Condizioni sufficienti per l'esistenza di un ciclo hamiltoniano}
+\paragraph{Teorema di Dirac} Sia G(V,E) un grafo semplice, con n vertici, \(n>2\), se \(d(v) \geq n/2\) per ogni vertice \(v \in V\), allora il grafo G è Hamiltoniano. \\
+La condizione di Dirac è \emph{sufficiente} ma \emph{\textbf{non} necessaria}.
+
+\subsection{Regole per costuire un ciclo Hamiltoniano}
+Dato G (V,E), le seguenti regole possono aiutare nella ricerca di un ciclo hamiltoniano (CH), se
+esiste. \\
+Se \( K(G) \leq 1\), allora G non contiene nessun CH.\\
+\begin{enumerate}
+    \item Se un vertice ha grado 2, allora i due archi incidenti in esso devono appartenere a qualsiasi CH.
+    \item Un ciclo Hamiltoniano non può contenere sottocicli propri.
+    \item Se nella costruzione di un CH abbiamo individuato due archi incidenti nel vertice v e
+    appartenenti al CH, allora tutti gli altri archi incidenti in v non possono appartenere a CH e
+    possone essere rimossi per la ricerca del CH.
+\end{enumerate}
+Ricordiamo che: dato G(V,E), un ciclo è \emph{hamiltoniano} se contiene
+tutti i vertici di G. \\ 
+G è \emph{hamiltoniano} se contiene un ciclo hamiltoniano.\\ 
+%Grafi hamiltoniani: Kn, n>=3 Kn,n n>=2 ipercubi
+%Grafi nonhamiltoniani: Kn,m n diverso da m, Petersen. Scacchiera.
+
+\noindent
+\subsection{Percorsi euleriani}
+Ricordiamo che: dato G(V,E), un \emph{percorso} è una sequenza v1, e1, v2, e2, v3, e3 ... vn, en, vn+1 (con possibile
+ripetizione di vertici o archi) dove \(ei=vi,vi+1\). \\ 
+Il percorso è \textbf{chiuso} se \(v1=vn+1\).\\ 
+Il percorso è \emph{euleriano} se è chiuso e contiene \emph{esattamente una volta} tutti gli archi di G(V,E) (ma i vertici
+possono essere attraversati più di una volta). \\ 
+G(V,E) è \emph{euleriano} se contiene un percorso euleriano. 
+\paragraph{Teorema di Eulero} G(V,E) è euleriano se e solo se G è connesso ed ogni vertice di G ha grado pari. 
+\subsubsection{Algoritmo per trovare un percorso euleriano}
+Parti da un nodo
+arbitrario e inizia a percorrere il grafo (rimuovendo gli archi già percorsi). Percorri un arco che non
+appartiene ad un ciclo solo se è l'unico che puoi percorrere. \\
+
+\subsection{Esercizi svolti}
+\subsubsection{Es.1}
+Dimostrare che, se un grafo connesso e bipartito G(V1, V2; E) ha un ciclo hamiltoniano, allora
+le cardinalità di V1 e di V2 devono essere uguali.
+Inoltre, se un grafo bipartito ha un numero dispari di vertici, allora non può avere cicli
+hamiltoniani.
+
+\subsubsection{Es.2}
+\begin{enumerate}
+    \item Quanti diversi cicli Hamiltoniani ci sono nel grafo \(K_n, n \geq 3\), il grafo completo con n vertici?
+    \item Dimostrare che gli archi del grafo \(K_n\), con n primo, si possono partizionare in \(\frac{1}{2}(n-1)\) hamiltoniani disgiunti sugli archi.
+    \item Se 11 persone cenano insieme ogni sera disponendosi attorno ad una tavola rotonda, e ogni
+    sera ogni persona si vuole sedere tra due persone che non gli sono mai state vicino, quante cene
+    riescono a fare?
+\end{enumerate}
+
+\subsubsection{Es.3} Il seguente grafo è noto come grafo di Petersen.\\
+E' un grafo con delle proprietà particolari e non è facile da studiare, pur avendo solo 10 vertici.
+
+\subsubsection{Es.4}
+
+\subsubsection{Es.5}
+
+
+
+\newpage

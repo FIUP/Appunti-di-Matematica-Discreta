@@ -4,7 +4,7 @@ Tale disegno viene detto \emph{rappresentazione piana} del grafo.\\
 
 \noindent
 Come stabilire se un grafo è planare? \\
-Problema polinomiale, anche se l'algoritmo è complicato. Ne daremo una versione semplificata, chiamata il metodo del cerchio e delle corde.\\
+Problema polinomiale, anche se l'algoritmo è complicato. Ne daremo una versione semplificata, chiamata il \emph{metodo del cerchio e delle corde}.
 
 \subsection{Minori}
 Contrazione di un arco u,v. Identifico u, v in un unico vertice. Arco u,v è diventato
@@ -23,7 +23,7 @@ Un grafo è planare se e solo se non contiene $K\ped{3,3}$ o $K_5$ come minore.\
 
 \noindent
 \subsection{Disegni equivalenti per grafi planari:} Dato un grafo planare, ci sono molte sue rappresentazioni piane, tutte equivalenti. \\
-Ogni rappresentazione piana divide il piano in regioni o facce. Indichiamo con r il numero di queste
+Ogni rappresentazione piana divide il piano in \emph{regioni} o \textbf{facce}. Indichiamo con \emph{r} il numero di queste
 regioni. Il numero r dipende solo dal grafo, non dalla particolare rappresentazione piana disegnata. 
 
 \subsubsection{Metodo del cerchio e delle corde}
@@ -56,13 +56,117 @@ circuito hamiltoniano.
 \subsubsection{Esempi}
 
 \subsection{Formula di Eulero}
+Se G è un grafo non orientato, connesso e planare, allora ogni sua rappresentazione piana ha r facce con:
+\[r = e -v + 2\]
+Con \(v = |V| = \) numero di vertici,
+\(e = |E| =\) numero di archi,
+\(r =\) numero di facce (regioni). \\
+
+\noindent
+\textbf{Dimostrazione:}
 
 \subsection{Politopi convessi}
+\paragraph{Formula di Eulero per i politopi}
+Sia P un politopo convesso nello spazio tridimensionale. \\
+Sia \(v =\) numero dei vertici,
+\(e =\) numero degli archi,
+\(r =\) numero delle facce,
+allora vale la relazione \(r = e - v + 2\) . \\
+\textit{Esempio:} un cubo ha \(r=6, e=12 v=8 \Rightarrow e- v+2=12-8+2=6=r\)
+Ogni politopo si può trasformare in un grafo connesso e planare.
 
 \subsubsection{Corollari}
+\paragraph{Corollario 1:} Se G(V,E) è un grafo semplice e planare, allora \(e \leq 3v - 6\). \\
+\textbf{Dimostrazione:}
+
+\paragraph{Corollario 2:} Se G(V,E) è un grafo planare semplice, connesso e bipartito, allora \(e \leq 2v - 4\).\\
+\textbf{Dimostrazione:}
+
+\paragraph{Corollario 3:} G(V,E) planare, semplice, G contiene un vertice di grado \(<= 5\)
+e<=3v-6.
+Se ogni nodo ha grado >5 (cioe' >=6).
+2e=Somma gradi vertici >= 6v, cioe' e>=3v, una contraddizione.
 
 \subsection{Problema dei 4 colori}
+\textbf{Problema:} quanti colori sono necessari per colorare i paesi di una
+mappa in modo tale che paesi adiacenti abbiano colori diversi?
+\begin{center}
+Mappa \\
+\(\Downarrow \) \\
+Grafo planare, ad ogni paese corrisponde un vertice.
+\end{center}
+\textbf{Problema:} quanti colori sono necessari per colorare i vertici di un grafo
+planare, in modo che vertici adiacenti abbiano colori diversi? \\
+
+\noindent
+\textbf{Congettura dei 4 colori, dimostrata da Appel e Haken (1976):} tutti i grafi planari sono 4-colorabili.
 
 \subsubsection{Esercizi}
+\paragraph{Es. 1} Rispondere alle seguenti domande, motivando le risposte.
+\begin{itemize}
+    \item Qual è il massimo numero di archi in un grafo non orientato e bipartito semplice con 15
+vertici?
+    \item Qual è il minimo numero di vertici in un grafo semplice non orientato e bipartito, con lo stesso
+numero di vertici nelle due parti della bipartizione, e con 65 archi?
+    \item Qual è il minimo numero di vertici in un grafo semplice non orientato e bipartito, con lo stesso
+numero di vertici nelle due parti della bipartizione, e con 64 archi?
+\end{itemize}
+
+\paragraph{Es. 2} Dimostrare che un grafo semplice con n vertici e più di archi non è bipartito
+
+\paragraph{Es. 3} Stabilire se i due seguenti grafi sono isomorfi, cercando di costruire l'isomorfismo. \\
+%Imm grafi
+\emph{Risposta:} sono isomorfi e l'isomorfismo è il seguente: 
+\begin{itemize}
+    \item \( a \longleftrightarrow 3\)
+    \item \(e \longleftrightarrow 5\)
+    \item \( d \longleftrightarrow 4\)
+    \item \( f \longleftrightarrow 2\)
+    \item \(c \longleftrightarrow  1\)
+    \item \(b \longleftrightarrow 6 \)
+\end{itemize}
+
+\paragraph{Es. 4} Dimostrare che tutti i grafi (semplici ) con 5 vertici e con ciascun vertice di grado 2 sono
+isomorfi. La stessa proprietà vale anche per grafi con 6 vertici?
+
+\paragraph{Es. 5} Tracciare una rappresentazione piana dei seguenti grafi, dove ogni arco è un segmento retto
+(notare che "e" è uno arco qualsiasi).
+
+\paragraph{Es. 6} Quale dei seguenti grafi è planare?
+
+\paragraph{Es. 7} Stabilire quanti vertici deve avere un grafo planare connesso con 5 facce e con 10 archi.
+Disegnare un grafo con queste caratteristiche.
+
+\paragraph{Es. 8}Stabilire se può esistere un grafo semplice non orientato con le caratteristiche indicate. In caso affermativo darne un esempio, in caso negativo spiegare perché non può esistere.
+\begin{enumerate}
+    \item Esiste un grafo planare semplice con 9 vertici e 22 archi?
+    \item Esiste un grafo planare semplice con 9 vertici e 21 archi?
+    \item Esiste un grafo planare semplice e bipartito con 8 vertici e 13 archi?
+    \item Esiste un grafo planare semplice e bipartito con 8 vertici e 12 archi?
+\end{enumerate}
+
+
+\paragraph{Es. 9} Per quali valori di n il grafo $K_n$ è planare? Per quali valori di $r$ e di $s$ il grafo completo bipartito $K_r,s$ è planare?
+
+\paragraph{Es. 10} Considerare il grafo non orientato G(V,E) qui sotto disegnato e rispondere alle seguenti domande.
+\begin{enumerate}
+    \item Il grafo G è bipartito?
+    \item Calcolare il grado minimo, il grado massimo e il grado medio dei vertici
+    \item Percorrendo i vertici del grafo in ordine alfabetico, trovate un circuito Hamiltoniano; usatelo per
+stabilire se il grafo G è planare. Se la risposta è affermativa, disegnate il grafo in modo piano; se
+invece la risposta è negativa, fornite $K\ped{3,3}$ o $K_5$ come minore
+    \item Determinare K(G) e Ke(G)
+\end{enumerate} 
+\emph{Risposte:} 
+
+\paragraph{Es. 11} È possibile disegnare un grafo planare semplice con 4 vertici e 4 facce?
+Se possibile disegnarlo.
+
+\paragraph{Es. 12} È possibile disegnare un grafo planare semplice con 5 vertici e 6 facce?
+Se possibile disegnarlo.
+
+\paragraph{Es. 13} È possibile disegnare un grafo planare semplice con 11 vertici in cui ogni vertice abbia grado
+maggiore o uguale a 5?
+
 
 \newpage

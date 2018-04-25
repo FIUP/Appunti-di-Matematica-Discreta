@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.2.27)  13 APR 2018 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.24)  25 APR 2018 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,16 +730,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./discreta.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./discreta.toc [2])
 \tf@toc=\write4
 \openout4 = `discreta.toc'.
 
- [2]
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[3] (./lezioni/Lez1.tex
+[4] (./lezioni/Lez1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
@@ -770,7 +770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--43
 
  []
 
-[4]
+[5]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 55.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -805,7 +805,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
-[5]) (./lezioni/Lez2.tex
+[6]) (./lezioni/Lez2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -830,17 +830,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[6]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
 
-[7]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 71--77
 
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
@@ -850,7 +850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
 
-[9] [10]) (./lezioni/Lez3.tex
+[10] [11]) (./lezioni/Lez3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
 
  []
@@ -865,12 +865,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 78--82
 
  []
 
-[12]
+[13]
 Overfull \hbox (28.94887pt too wide) in paragraph at lines 83--87
 \T1/cmr/m/n/12 Quindi se G(V,E) è un gra-fo sem-pli-ce non com-ple-to al-lo-ra:
  $\OML/cmm/m/it/12 K\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 G\OT1/cmr/m/n/12 ) = [] \
@@ -888,7 +888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
@@ -898,12 +898,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
-[14]) (./lezioni/Lez4.tex
+[15]) (./lezioni/Lez4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--15
 
  []
 
-[15]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
@@ -913,7 +913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
-[16]) (./lezioni/Lez5.tex
+[17]) (./lezioni/Lez5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -943,13 +943,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
-[17] [18] [19]) (./lezioni/Lez6.tex
+[18] [19] [20]) (./lezioni/Lez6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
@@ -958,30 +953,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[20] [21])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+[23] [24] [25]) (./lezioni/Lez7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 38--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+[27] [28]) (./lezioni/Lez8.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
+
+ []
+
+[30] [31])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (./discreta.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
-
-
-Package rerunfilecheck Warning: File `discreta.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `discreta.out':
-(rerunfilecheck)             Before: F580A0B4EC434AD939640D5E7F8E28C4;2359
-(rerunfilecheck)             After:  FA3E53851FF00ECCDDBC9B8C472513F3;3138.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
+Package rerunfilecheck Info: File `discreta.out' has not changed.
+(rerunfilecheck)             Checksum: 32C88334A327EE1D7A5559A7F231AF8F;4806.
  ) 
 Here is how much of TeX's memory you used:
- 9593 strings out of 493029
- 134960 string characters out of 6136234
- 234816 words of memory out of 5000000
- 12873 multiletter control sequences out of 15000+600000
+ 9703 strings out of 493029
+ 136440 string characters out of 6136234
+ 235845 words of memory out of 5000000
+ 12907 multiletter control sequences out of 15000+600000
  20971 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,8n,32p,800b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,8n,32p,800b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1000,10 +1028,10 @@ rm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
 i1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on discreta.pdf (21 pages, 355824 bytes).
+Output written on discreta.pdf (31 pages, 386717 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 671 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 529 words of extra memory for PDF output out of 10000 (max. 10000000)
 

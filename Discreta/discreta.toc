@@ -1,59 +1,103 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {section}{\numberline {1}Prima lezione: Introduzione}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}Teoria dei grafi}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Metodi di conteggio}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Relazioni di ricorrenza}{5}{subsection.1.3}
-\contentsline {section}{\numberline {2}Seconda lezione: Grafi orientati e non orientati}{6}{section.2}
-\contentsline {subsection}{\numberline {2.1}Grafi non orientati}{6}{subsection.2.1}
-\contentsline {paragraph}{Due propriet\IeC {\`a} fondamentali}{6}{section*.2}
-\contentsline {paragraph}{Corollario:}{7}{section*.3}
-\contentsline {subsubsection}{\numberline {2.1.1}Terminologia}{7}{subsubsection.2.1.1}
-\contentsline {paragraph}{Teorema:}{8}{section*.4}
-\contentsline {paragraph}{Teorema:}{8}{section*.5}
-\contentsline {subsubsection}{\numberline {2.1.2}Alcuni grafi}{8}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Grafi orientati}{9}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Terminologia}{9}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Propriet\IeC {\`a} dei grafi orientati}{9}{subsubsection.2.2.2}
-\contentsline {paragraph}{Teorema}{10}{section*.6}
-\contentsline {paragraph}{Tornei:}{10}{section*.7}
-\contentsline {subsubsection}{\numberline {2.2.3}Rappresentazione di grafi mediante matrici}{10}{subsubsection.2.2.3}
-\contentsline {section}{\numberline {3}Terza lezione: Connettivit\IeC {\`a}}{11}{section.3}
-\contentsline {paragraph}{Teorema}{11}{section*.8}
-\contentsline {subsection}{\numberline {3.1}Calcolo delle componenti connesse}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Connettivit\IeC {\`a}}{12}{subsection.3.2}
-\contentsline {paragraph}{Connettivit\IeC {\`a} sugli archi}{12}{section*.9}
-\contentsline {paragraph}{Teorema}{12}{section*.10}
-\contentsline {subsubsection}{\numberline {3.2.1}Connettivit\IeC {\`a} (sui vertici)}{12}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Disequazioni}{13}{subsubsection.3.2.2}
-\contentsline {paragraph}{Teorema}{13}{section*.11}
-\contentsline {subsection}{\numberline {3.3}Affidabilit\IeC {\`a} di una rete}{13}{subsection.3.3}
-\contentsline {paragraph}{Dimostrazione}{14}{section*.12}
-\contentsline {section}{\numberline {4}Quarta lezione: Grafi bipartiti e isomorfi}{15}{section.4}
-\contentsline {subsection}{\numberline {4.1}Grafi bipartiti}{15}{subsection.4.1}
-\contentsline {subsubsection}{\numberline {4.1.1}Condizione necessaria E sufficiente}{15}{subsubsection.4.1.1}
-\contentsline {paragraph}{Teorema:}{15}{section*.13}
-\contentsline {subsubsection}{\numberline {4.1.2}Algoritmo per bipartizione}{15}{subsubsection.4.1.2}
-\contentsline {subsection}{\numberline {4.2}Grafi isomorfi}{16}{subsection.4.2}
-\contentsline {paragraph}{Determinare se due grafi sono isomorfi:}{16}{section*.14}
-\contentsline {subsubsection}{\numberline {4.2.1}Condizioni necessarie}{16}{subsubsection.4.2.1}
-\contentsline {section}{\numberline {5}Quinta lezione: Foreste, alberi e cammini}{17}{section.5}
-\contentsline {subsection}{\numberline {5.1}Definizioni}{17}{subsection.5.1}
-\contentsline {paragraph}{Teorema}{17}{section*.15}
-\contentsline {subsection}{\numberline {5.2}Albero di peso minimo. Algoritmo di Kruskal.}{18}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Esercizi}{18}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Es.1}{18}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Es.2}{18}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Es.3}{18}{subsubsection.5.3.3}
-\contentsline {subsubsection}{\numberline {5.3.4}Es.4}{19}{subsubsection.5.3.4}
-\contentsline {section}{\numberline {6}Sesta lezione: Grafi planari}{20}{section.6}
-\contentsline {subsection}{\numberline {6.1}Minori}{20}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Teorema di Kuratowski}{20}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Disegni equivalenti per grafi planari:}{20}{subsection.6.3}
+\contentsline {section}{\numberline {1}Prima lezione: Introduzione}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Teoria dei grafi}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Metodi di conteggio}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Relazioni di ricorrenza}{6}{subsection.1.3}
+\contentsline {section}{\numberline {2}Seconda lezione: Grafi orientati e non orientati}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Grafi non orientati}{7}{subsection.2.1}
+\contentsline {paragraph}{Due propriet\IeC {\`a} fondamentali}{7}{section*.2}
+\contentsline {paragraph}{Corollario:}{8}{section*.3}
+\contentsline {subsubsection}{\numberline {2.1.1}Terminologia}{8}{subsubsection.2.1.1}
+\contentsline {paragraph}{Teorema:}{9}{section*.4}
+\contentsline {paragraph}{Teorema:}{9}{section*.5}
+\contentsline {subsubsection}{\numberline {2.1.2}Alcuni grafi}{9}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Grafi orientati}{10}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Terminologia}{10}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Propriet\IeC {\`a} dei grafi orientati}{10}{subsubsection.2.2.2}
+\contentsline {paragraph}{Teorema}{11}{section*.6}
+\contentsline {paragraph}{Tornei:}{11}{section*.7}
+\contentsline {subsubsection}{\numberline {2.2.3}Rappresentazione di grafi mediante matrici}{11}{subsubsection.2.2.3}
+\contentsline {section}{\numberline {3}Terza lezione: Connettivit\IeC {\`a}}{12}{section.3}
+\contentsline {paragraph}{Teorema}{12}{section*.8}
+\contentsline {subsection}{\numberline {3.1}Calcolo delle componenti connesse}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Connettivit\IeC {\`a}}{13}{subsection.3.2}
+\contentsline {paragraph}{Connettivit\IeC {\`a} sugli archi}{13}{section*.9}
+\contentsline {paragraph}{Teorema}{13}{section*.10}
+\contentsline {subsubsection}{\numberline {3.2.1}Connettivit\IeC {\`a} (sui vertici)}{13}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Disequazioni}{14}{subsubsection.3.2.2}
+\contentsline {paragraph}{Teorema}{14}{section*.11}
+\contentsline {subsection}{\numberline {3.3}Affidabilit\IeC {\`a} di una rete}{14}{subsection.3.3}
+\contentsline {paragraph}{Dimostrazione}{15}{section*.12}
+\contentsline {section}{\numberline {4}Quarta lezione: Grafi bipartiti e isomorfi}{16}{section.4}
+\contentsline {subsection}{\numberline {4.1}Grafi bipartiti}{16}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Condizione necessaria E sufficiente}{16}{subsubsection.4.1.1}
+\contentsline {paragraph}{Teorema:}{16}{section*.13}
+\contentsline {subsubsection}{\numberline {4.1.2}Algoritmo per bipartizione}{16}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Grafi isomorfi}{17}{subsection.4.2}
+\contentsline {paragraph}{Determinare se due grafi sono isomorfi:}{17}{section*.14}
+\contentsline {subsubsection}{\numberline {4.2.1}Condizioni necessarie}{17}{subsubsection.4.2.1}
+\contentsline {section}{\numberline {5}Quinta lezione: Foreste, alberi e cammini}{18}{section.5}
+\contentsline {subsection}{\numberline {5.1}Definizioni}{18}{subsection.5.1}
+\contentsline {paragraph}{Teorema}{18}{section*.15}
+\contentsline {subsection}{\numberline {5.2}Albero di peso minimo. Algoritmo di Kruskal.}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Esercizi}{19}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Es.1}{19}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Es.2}{19}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Es.3}{19}{subsubsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.4}Es.4}{20}{subsubsection.5.3.4}
+\contentsline {section}{\numberline {6}Sesta lezione: Grafi planari}{21}{section.6}
+\contentsline {subsection}{\numberline {6.1}Minori}{21}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Teorema di Kuratowski}{21}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Disegni equivalenti per grafi planari:}{21}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}Metodo del cerchio e delle corde}{21}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Esempi}{21}{subsubsection.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Formula di Eulero}{21}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Politopi convessi}{21}{subsection.6.5}
-\contentsline {subsubsection}{\numberline {6.5.1}Corollari}{21}{subsubsection.6.5.1}
-\contentsline {subsection}{\numberline {6.6}Problema dei 4 colori}{21}{subsection.6.6}
-\contentsline {subsubsection}{\numberline {6.6.1}Esercizi}{21}{subsubsection.6.6.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Esempi}{22}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Formula di Eulero}{22}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Politopi convessi}{22}{subsection.6.5}
+\contentsline {paragraph}{Formula di Eulero per i politopi}{22}{section*.16}
+\contentsline {subsubsection}{\numberline {6.5.1}Corollari}{23}{subsubsection.6.5.1}
+\contentsline {paragraph}{Corollario 1:}{23}{section*.17}
+\contentsline {paragraph}{Corollario 2:}{23}{section*.18}
+\contentsline {paragraph}{Corollario 3:}{23}{section*.19}
+\contentsline {subsection}{\numberline {6.6}Problema dei 4 colori}{23}{subsection.6.6}
+\contentsline {subsubsection}{\numberline {6.6.1}Esercizi}{23}{subsubsection.6.6.1}
+\contentsline {paragraph}{Es. 1}{23}{section*.20}
+\contentsline {paragraph}{Es. 2}{24}{section*.21}
+\contentsline {paragraph}{Es. 3}{24}{section*.22}
+\contentsline {paragraph}{Es. 4}{24}{section*.23}
+\contentsline {paragraph}{Es. 5}{24}{section*.24}
+\contentsline {paragraph}{Es. 6}{24}{section*.25}
+\contentsline {paragraph}{Es. 7}{24}{section*.26}
+\contentsline {paragraph}{Es. 8}{24}{section*.27}
+\contentsline {paragraph}{Es. 9}{25}{section*.28}
+\contentsline {paragraph}{Es. 10}{25}{section*.29}
+\contentsline {paragraph}{Es. 11}{25}{section*.30}
+\contentsline {paragraph}{Es. 12}{25}{section*.31}
+\contentsline {paragraph}{Es. 13}{25}{section*.32}
+\contentsline {section}{\numberline {7}Settima lezione: }{26}{section.7}
+\contentsline {subsection}{\numberline {7.1}Circuiti hamiltoniani}{26}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Condizioni necessarie}{26}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}Condizioni sufficienti per l'esistenza di un ciclo hamiltoniano}{26}{subsubsection.7.1.2}
+\contentsline {paragraph}{Teorema di Dirac}{26}{section*.33}
+\contentsline {subsection}{\numberline {7.2}Regole per costuire un ciclo Hamiltoniano}{26}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Percorsi euleriani}{27}{subsection.7.3}
+\contentsline {paragraph}{Teorema di Eulero}{27}{section*.34}
+\contentsline {subsubsection}{\numberline {7.3.1}Algoritmo per trovare un percorso euleriano}{27}{subsubsection.7.3.1}
+\contentsline {subsection}{\numberline {7.4}Esercizi svolti}{27}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Es.1}{27}{subsubsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.2}Es.2}{28}{subsubsection.7.4.2}
+\contentsline {subsubsection}{\numberline {7.4.3}Es.3}{28}{subsubsection.7.4.3}
+\contentsline {subsubsection}{\numberline {7.4.4}Es.4}{28}{subsubsection.7.4.4}
+\contentsline {subsubsection}{\numberline {7.4.5}Es.5}{28}{subsubsection.7.4.5}
+\contentsline {section}{\numberline {8}Ottava lezione: Calcolo combinatorio}{29}{section.8}
+\contentsline {subsection}{\numberline {8.1}Principio di addizione}{29}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Principio di moltiplicazione}{29}{subsection.8.2}
+\contentsline {paragraph}{Esempio 3}{30}{section*.35}
+\contentsline {paragraph}{Esempio 4}{30}{section*.36}
+\contentsline {subsection}{\numberline {8.3}Permutazioni e combinazioni semplici}{30}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Esempi}{30}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Es. 1}{30}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.2}Es. 2}{30}{subsubsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.3}Es. 3}{31}{subsubsection.8.4.3}
+\contentsline {subsubsection}{\numberline {8.4.4}Es. 4}{31}{subsubsection.8.4.4}
+\contentsline {subsubsection}{\numberline {8.4.5}Es. 2-bis}{31}{subsubsection.8.4.5}
