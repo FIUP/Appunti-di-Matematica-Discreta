@@ -1,19 +1,19 @@
 \documentclass[12pt,a4paper]{article}
 
-\usepackage[english,italian]{babel}
+\usepackage[english,italian]{babel} %lingue utilizzate
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-\usepackage{hyperref}
-\hypersetup{hidelinks}
+\usepackage{hyperref} %linkare l indice
+\hypersetup{hidelinks} %nascondere i link dell'indice
 
 \usepackage{graphicx} %img/media
 \usepackage{enumitem} %lists
 \usepackage{listings} %coding environment 
 \usepackage{mathtools} %math package
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage{amsthm}
+\usepackage{amssymb} %pacchetto per i simboli di matematica
+\usepackage{amsmath} %pacchetto di matematica
+\usepackage{amsthm} %pacchetto di matematica
 
 
 \begin{document}
@@ -40,11 +40,11 @@
 
 \begin{center}
     \textit{Argomenti:}
-    \begin{enumerate}
+    \begin{itemize}
         \item Teoria dei grafi 
         \item Metodi di conteggio
         \item Relazioni di ricorrenza
-    \end{enumerate}
+    \end{itemize}
 \end{center}
 
     \newpage
@@ -65,7 +65,54 @@
 
 \input{lezioni/Lez7.tex}
 
-\input{lezioni/Lez8.tex}
+\input{lezioni/EsGrafi.tex}
+
+\input{lezioni/Lez9.tex}
+
+\input{lezioni/Lez10.tex}
+
+\input{lezioni/Lez11.tex}
+
+\input{lezioni/Lez12.tex}
+
+\input{lezioni/Lez13.tex}
+
+\input{lezioni/Lez14.tex}
+
+\input{lezioni/Lez15.tex}
+
+\begin{center}
+\textbf{Argomenti svolti:} \\
+
+\textit{Prima parte del corso:}
+\begin{center}
+Grafi non orientati: Nozioni di base: percorsi, cammini, cicli, gradi, sottografi, sottografi indotti. Famiglie di grafi. \\
+Grafi orientati: Nozioni di base: percorsi, cammini, cicli, gradi. Tornei \\
+Grafi bipartiti, parita' di cicli. Isomorfismo fra grafi. Algoritmi. \\
+Arcoconnettivita', Arcoconnettivita' fra 2 nodi, tagli .\\
+Connettivita', coconnettivita' fra 2 nodi, separatori . Relazioni fra connettivita' ed arcoconnettivita'. \\
+Alberi di peso minimo. Algoritmo di Kruskal.\\
+Cammini minimi. Algoritmo di Dijkstra.\\
+Planarita: Rappresentazioni piane, facce, perimetri. Formula di Eulero.\\
+Minori. K33 e K5 non planari. Teorema di Kuratowski.
+\end{center}
+
+\textit{Seconda parte del corso} 
+\begin{center}
+Cicli hamiltoniani, percorsi euleriani.\\
+Capitolo 5: Metodi di Conteggio\par
+5.1 Principio di addizione e moltiplicazione\par
+5.2 Permutazioni, r-permutazioni, r-combinazioni (selezioni non ordinate)\par
+5.3 Stringhe da alfabeto finito (=permutazioni di parole). Selezioni di n oggetti da k tipi (=ordini)\par
+5.5 Identita' binomiali.\\
+Capitolo 7: Relazioni di ricorrenza\par
+7.1 Modelli di relazioni di ricorrenza\par
+7.2 Soluzioni di equazioni di ricorrenza "divide and conquer"\par
+7.3 Soluzioni di relazioni di ricorrenza lineari omogenee\par
+7.4 Soluzioni di relazioni di ricorrenza lineari non omogenee
+\end{center}
+\end{center}
+
 
 
 \end{document}

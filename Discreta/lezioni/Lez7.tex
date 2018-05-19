@@ -1,4 +1,4 @@
-\section{Settima lezione: }
+\section{Settima lezione: I circuiti hamiltoniani}
 \subsection{Circuiti hamiltoniani}
 Dato G(V,E) grafo, un (circuito) ciclo Hamiltoniano di G è un ciclo che visita \textbf{ogni vertice} esattamente
 \textbf{una volta}. \\
@@ -7,11 +7,10 @@ Ricordiamo che abbiamo visto un algoritmo per testare la planarità di un grafo,
 Hamiltoniano. \\
 Stabilire se un grafo è Hamiltoniano è un problema difficile (NP-completo): appartiene ad una classe di
 problemi per cui non esistono algoritmi semplici e veloci che risolvano qualsiasi istanza del problema. \\
-Esistono condizioni \emph{necessarie} (che ogni grafo deve soddisfare per essere Hamiltoniano) e \emph{sufficienti} (che assicurano che un grafo che le soddisfi sia Hamiltoniano, ma non viceversa.) ma non esistono condizioni semplici che siano \emph{necessarie} e \emph{sufficienti} (contemporaneamente).\\
+Esistono condizioni \emph{necessarie} (che ogni grafo deve soddisfare per essere Hamiltoniano) e \emph{sufficienti} (che assicurano che un grafo che le soddisfi sia Hamiltoniano, ma non viceversa.) ma non esistono condizioni semplici che siano \emph{necessarie} e \emph{sufficienti} (contemporaneamente).
 
-\noindent
 \subsubsection{Condizioni necessarie}
-Osserviamo che: Ogni condizione che è verificata da un ciclo Hamiltoniano H deve essere verificata da un grafo
+Osserviamo che: ogni condizione che è verificata da un ciclo Hamiltoniano H deve essere verificata da un grafo
 che contiene H. \\
 Se G(V,E) è Hamiltoniano, allora:
 \begin{itemize}
@@ -55,28 +54,7 @@ Parti da un nodo
 arbitrario e inizia a percorrere il grafo (rimuovendo gli archi già percorsi). Percorri un arco che non
 appartiene ad un ciclo solo se è l'unico che puoi percorrere. \\
 
-\subsection{Esercizi svolti}
-\subsubsection{Es.1}
-Dimostrare che, se un grafo connesso e bipartito G(V1, V2; E) ha un ciclo hamiltoniano, allora
-le cardinalità di V1 e di V2 devono essere uguali.
-Inoltre, se un grafo bipartito ha un numero dispari di vertici, allora non può avere cicli
-hamiltoniani.
 
-\subsubsection{Es.2}
-\begin{enumerate}
-    \item Quanti diversi cicli Hamiltoniani ci sono nel grafo \(K_n, n \geq 3\), il grafo completo con n vertici?
-    \item Dimostrare che gli archi del grafo \(K_n\), con n primo, si possono partizionare in \(\frac{1}{2}(n-1)\) hamiltoniani disgiunti sugli archi.
-    \item Se 11 persone cenano insieme ogni sera disponendosi attorno ad una tavola rotonda, e ogni
-    sera ogni persona si vuole sedere tra due persone che non gli sono mai state vicino, quante cene
-    riescono a fare?
-\end{enumerate}
-
-\subsubsection{Es.3} Il seguente grafo è noto come grafo di Petersen.\\
-E' un grafo con delle proprietà particolari e non è facile da studiare, pur avendo solo 10 vertici.
-
-\subsubsection{Es.4}
-
-\subsubsection{Es.5}
 
 
 

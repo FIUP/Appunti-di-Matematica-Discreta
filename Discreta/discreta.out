@@ -26,41 +26,47 @@
 \BOOKMARK [2][-]{subsection.5.1}{Definizioni}{section.5}% 26
 \BOOKMARK [2][-]{subsection.5.2}{Albero di peso minimo. Algoritmo di Kruskal.}{section.5}% 27
 \BOOKMARK [2][-]{subsection.5.3}{Esercizi}{section.5}% 28
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Es.1}{subsection.5.3}% 29
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Es.2}{subsection.5.3}% 30
-\BOOKMARK [3][-]{subsubsection.5.3.3}{Es.3}{subsection.5.3}% 31
-\BOOKMARK [3][-]{subsubsection.5.3.4}{Es.4}{subsection.5.3}% 32
-\BOOKMARK [1][-]{section.6}{Sesta lezione: Grafi planari}{}% 33
-\BOOKMARK [2][-]{subsection.6.1}{Minori}{section.6}% 34
-\BOOKMARK [2][-]{subsection.6.2}{Teorema di Kuratowski}{section.6}% 35
-\BOOKMARK [2][-]{subsection.6.3}{Disegni equivalenti per grafi planari:}{section.6}% 36
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Metodo del cerchio e delle corde}{subsection.6.3}% 37
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Esempi}{subsection.6.3}% 38
-\BOOKMARK [2][-]{subsection.6.4}{Formula di Eulero}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.5}{Politopi convessi}{section.6}% 40
-\BOOKMARK [3][-]{subsubsection.6.5.1}{Corollari}{subsection.6.5}% 41
-\BOOKMARK [2][-]{subsection.6.6}{Problema dei 4 colori}{section.6}% 42
-\BOOKMARK [3][-]{subsubsection.6.6.1}{Esercizi}{subsection.6.6}% 43
-\BOOKMARK [1][-]{section.7}{Settima lezione: }{}% 44
-\BOOKMARK [2][-]{subsection.7.1}{Circuiti hamiltoniani}{section.7}% 45
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Condizioni necessarie}{subsection.7.1}% 46
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Condizioni sufficienti per l'esistenza di un ciclo hamiltoniano}{subsection.7.1}% 47
-\BOOKMARK [2][-]{subsection.7.2}{Regole per costuire un ciclo Hamiltoniano}{section.7}% 48
-\BOOKMARK [2][-]{subsection.7.3}{Percorsi euleriani}{section.7}% 49
-\BOOKMARK [3][-]{subsubsection.7.3.1}{Algoritmo per trovare un percorso euleriano}{subsection.7.3}% 50
-\BOOKMARK [2][-]{subsection.7.4}{Esercizi svolti}{section.7}% 51
-\BOOKMARK [3][-]{subsubsection.7.4.1}{Es.1}{subsection.7.4}% 52
-\BOOKMARK [3][-]{subsubsection.7.4.2}{Es.2}{subsection.7.4}% 53
-\BOOKMARK [3][-]{subsubsection.7.4.3}{Es.3}{subsection.7.4}% 54
-\BOOKMARK [3][-]{subsubsection.7.4.4}{Es.4}{subsection.7.4}% 55
-\BOOKMARK [3][-]{subsubsection.7.4.5}{Es.5}{subsection.7.4}% 56
-\BOOKMARK [1][-]{section.8}{Ottava lezione: Calcolo combinatorio}{}% 57
-\BOOKMARK [2][-]{subsection.8.1}{Principio di addizione}{section.8}% 58
-\BOOKMARK [2][-]{subsection.8.2}{Principio di moltiplicazione}{section.8}% 59
-\BOOKMARK [2][-]{subsection.8.3}{Permutazioni e combinazioni semplici}{section.8}% 60
-\BOOKMARK [2][-]{subsection.8.4}{Esempi}{section.8}% 61
-\BOOKMARK [3][-]{subsubsection.8.4.1}{Es. 1}{subsection.8.4}% 62
-\BOOKMARK [3][-]{subsubsection.8.4.2}{Es. 2}{subsection.8.4}% 63
-\BOOKMARK [3][-]{subsubsection.8.4.3}{Es. 3}{subsection.8.4}% 64
-\BOOKMARK [3][-]{subsubsection.8.4.4}{Es. 4}{subsection.8.4}% 65
-\BOOKMARK [3][-]{subsubsection.8.4.5}{Es. 2-bis}{subsection.8.4}% 66
+\BOOKMARK [1][-]{section.6}{Sesta lezione: Grafi planari}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{Minori}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.2}{Teorema di Kuratowski}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.3}{Disegni equivalenti per grafi planari:}{section.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Metodo del cerchio e delle corde}{subsection.6.3}% 33
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Esempi}{subsection.6.3}% 34
+\BOOKMARK [2][-]{subsection.6.4}{Formula di Eulero}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.5}{Politopi convessi}{section.6}% 36
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Corollari}{subsection.6.5}% 37
+\BOOKMARK [2][-]{subsection.6.6}{Problema dei 4 colori}{section.6}% 38
+\BOOKMARK [1][-]{section.7}{Settima lezione: I circuiti hamiltoniani}{}% 39
+\BOOKMARK [2][-]{subsection.7.1}{Circuiti hamiltoniani}{section.7}% 40
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Condizioni necessarie}{subsection.7.1}% 41
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Condizioni sufficienti per l'esistenza di un ciclo hamiltoniano}{subsection.7.1}% 42
+\BOOKMARK [2][-]{subsection.7.2}{Regole per costuire un ciclo Hamiltoniano}{section.7}% 43
+\BOOKMARK [2][-]{subsection.7.3}{Percorsi euleriani}{section.7}% 44
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Algoritmo per trovare un percorso euleriano}{subsection.7.3}% 45
+\BOOKMARK [1][-]{section.8}{Esercizi svolti}{}% 46
+\BOOKMARK [1][-]{section.9}{Ottava lezione: Calcolo combinatorio}{}% 47
+\BOOKMARK [2][-]{subsection.9.1}{Principio di addizione}{section.9}% 48
+\BOOKMARK [2][-]{subsection.9.2}{Principio di moltiplicazione}{section.9}% 49
+\BOOKMARK [2][-]{subsection.9.3}{Permutazioni e combinazioni semplici}{section.9}% 50
+\BOOKMARK [2][-]{subsection.9.4}{Esempi}{section.9}% 51
+\BOOKMARK [1][-]{section.10}{Decima lezione:}{}% 52
+\BOOKMARK [2][-]{subsection.10.1}{Triangolo di Pascal/Tartaglia}{section.10}% 53
+\BOOKMARK [2][-]{subsection.10.2}{Identit\340 binomiali}{section.10}% 54
+\BOOKMARK [2][-]{subsection.10.3}{Esercizi}{section.10}% 55
+\BOOKMARK [1][-]{section.11}{Undicesima lezione: Disposizioni con ripetizione}{}% 56
+\BOOKMARK [2][-]{subsection.11.1}{Disposizioni con ripetizione}{section.11}% 57
+\BOOKMARK [2][-]{subsection.11.2}{Selezioni con ripetizione}{section.11}% 58
+\BOOKMARK [2][-]{subsection.11.3}{Distribuzioni di oggetti distinti}{section.11}% 59
+\BOOKMARK [2][-]{subsection.11.4}{Distribuzioni di oggetti identici}{section.11}% 60
+\BOOKMARK [2][-]{subsection.11.5}{Esercizi}{section.11}% 61
+\BOOKMARK [1][-]{section.12}{Dodicesima lezione: Esercizi}{}% 62
+\BOOKMARK [2][-]{subsection.12.1}{Esercizi}{section.12}% 63
+\BOOKMARK [1][-]{section.13}{Tredicesima lezione: Relazioni di ricorrenza}{}% 64
+\BOOKMARK [2][-]{subsection.13.1}{Relazioni di ricorrenza}{section.13}% 65
+\BOOKMARK [2][-]{subsection.13.2}{Esempi}{section.13}% 66
+\BOOKMARK [2][-]{subsection.13.3}{Dividi e conquista}{section.13}% 67
+\BOOKMARK [2][-]{subsection.13.4}{Relazioni lineari omogenee}{section.13}% 68
+\BOOKMARK [2][-]{subsection.13.5}{Relazioni non omogenee}{section.13}% 69
+\BOOKMARK [1][-]{section.14}{Quattordicesima lezione: Relazioni dividi e conquista}{}% 70
+\BOOKMARK [2][-]{subsection.14.1}{Esempi ed esercizi}{section.14}% 71
+\BOOKMARK [1][-]{section.15}{Quindicesima lezione: Esercizi}{}% 72

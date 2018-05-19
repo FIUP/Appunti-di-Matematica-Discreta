@@ -4,36 +4,36 @@ Una \emph{foresta} è un grafo senza cicli (aciclico). \\
 Un \emph{albero} è una foresta connessa. \\
 
 \noindent
-Se F(V,E) è una foresta, allora $\mid E\mid = \mid V\mid-  n$ (con n numero delle componenti connesse di F) \\
-Se T(V,E) è un albero, allora $\mid E\mid = \mid V\mid -1$. \\
+Se F(V,E) è una foresta, allora \(|E| = |V|-n\) (con n numero delle componenti connesse di F) \\
+Se T(V,E) è un albero, allora \(|E| = |V|-1\). \\
 
 \noindent
-Se T(V,E) è un albero con almeno 2 nodi, allora T contiene almeno 2 nodi di grado 1. \\
+Se T(V,E) è un albero con almeno 2 nodi, allora T contiene almeno 2 nodi di grado 1. 
 \paragraph{Teorema} Sia T(V,E) un grafo connesso. Allora le seguenti affermazioni sono equivalenti:
 \begin{itemize}
 \item T non ha cicli.
 \item Per ogni coppia di vertici distinti, x e y, esiste un unico cammino che li collega.
 \item Il grafo T è minimalmente connesso, cioè la rimozione di un qualsiasi arco lo disconnette,
-cioè ogni arco e' un taglio.
+cioè ogni arco è un taglio.
 \end{itemize}
-\textbf{DImostrazione:} \\
+\textbf{Dimostrazione:} \\
 \(a \Rightarrow c \Rightarrow b \Rightarrow a \) \\
 
-\noindent
 \(a \Rightarrow c\) ) T connesso, senza cicli $\rightarrow$ ogni arco è un taglio. Suppongo che esista un arco $u,v$ tale che $T \setminus uv$ sia connesso. In $T \setminus uv$ esiste un cammino $P\ped{uv}$ che collega $u$ e $v$.\\
 % cose a caso indecifrabili
+
 $c \Rightarrow b$ ) T connesso tale che ogni arco è un taglio. \(\forall x, y \in V , x \neq y\) esiste un unico $P\ped{uv}$. \\
 Suponiamo che esistano $x, y \in V, x \neq y$ tali che ci siano 2 cammini differenti che li collegano ($P' \ped{xy}$ e $P''\ped{xy}$), sia (u,v) il primo arco di $P\ped{xy}$ che non appartiene a $P''\ped{xy}$ \\
 $T \setminus (uv)$ non è connesso, u e v appartengono a differenti componenti connesse. \emph{ma} in $T \setminus (uv)$ esiste un persorso u - v. \\
+
 $b \Rightarrow a$ ) T tale che \(\forall x,y \in V, x \neq y\) esiste un unico cammino.
 Supponiamo che C sia un circuito di T. Siano x e y $\in$ C, x $\neq$ y. \\
 Esistono due cammini distinti che collegano x e y.
-\\
 
 \subsection{Albero di peso minimo. Algoritmo di Kruskal.}
 \textbf{Problema:} Dato G(V,E) connesso, con pesi \( w(e), e \in E\) \\
-\textbf{input:} G(V,E) connesso, pesi \\
-\textbf{output:} Albero di peso minimo.\\
+\textbf{Input:} G(V,E) connesso, pesi \\
+\textbf{Output:} Albero di peso minimo.
 \begin{itemize}
 \item \emph{Ordina} gli archi ${1, 2, .., m}$ in ordine nondecrescente di peso: \( w(1)\leq w(2)\leq .. \leq w(m)\)
 \item \emph{Inizializzazione:} Poni $T=\emptyset$ ed $i=1$.
@@ -43,38 +43,45 @@ Esistono due cammini distinti che collegano x e y.
 \end{itemize}
 
 \subsection{Esercizi}
-\subsubsection{Es.1}
+\paragraph{Es.1}
 Dimostrare che ogni grafo non orientato semplice G(V,E), senza cicli e con \(|E|=|V|-1\) è un albero. \\
+
 \textbf{Svolgimento:} \\
 Devo dimostrare che G(V,E) è connesso. Sia $c$ il numero di componenti connesse di G. \\
+
+\noindent
 \(G_1(V_1,E_1)\) connesso e senza circuiti $\rightarrow$ albero; \( |E_1| = |V_1| -1 \) \\
 \(G_c(V_c,E_c) \)connesso e senza circuiti $\rightarrow$ albero; \( |E_c| = |V_c| -1 \) \\
 Sommando: \(|E|=|E_1|+ |E_2| + .. + |E_c| = |V_1|-1 + |V_2|-1 + .. + |V_c|-1 = |V| - c\) \\
+
+\noindent
 Ma: \(|E| = |V| -1\) per ipotesi $\Rightarrow c=1 \Rightarrow$ G connesso $\Rightarrow$ è un albero.
 %.....
 
-\subsubsection{Es.2}
-Dimostrare che ogni grafo non orientato semplice e connesso con $n$ vertici e $n-1$ archi,
-è un albero.
+\paragraph{Es.2}
+Dimostrare che ogni grafo non orientato semplice e connesso con $n$ vertici e $n-1$ archi, è un albero.
 %....
 
-\subsubsection{Es.3}
-Dimostrare che data una foresta F(V,E), vale: \(\mid E \mid = \mid V \mid - \gamma \) , con $\gamma =$ numero di componenti connesse di F(V,E).
+\paragraph{Es.3}
+Dimostrare che data una foresta F(V,E), vale: \(|E | = |V| - \gamma \) , con $\gamma =$ numero di componenti connesse di F(V,E).
 %...
 
-\subsubsection{Es.4}
+\paragraph{Es.4}
 \textbf{Problema:} Dato un grafo connesso con lunghezze positive sugli archi, e vertici r, v,
 \emph{trovare} un cammino di lunghezza minima fra r e v. (lunghezza di un cammino $P =$ somma delle
 lunghezze degli archi in P, lunghezza minima fra r e $v=$ distanza fra r e v). \\
 Uso l'algoritmo di \emph{Dijkstra}. \\
+
+\noindent
 \textbf{Input}: G(V,E) connesso, lunghezze \(l(e) > 0, e \in E\), non di partenza r \\
-\textbf{output:} distanze (e cammini minimi) fra r e gli altri nodi in V.\\
-\emph{Inizzializzazione:} Poni d(r) $=$ 0, d(v)$= \inf$, \(v \in V \setminus \{r \} i= 0, S_0 = \{r \}\). \\
-\emph{Iterazione i:} \(\forall v \in V \setminus S_i\) poni \(d(v)= \min \{ d(v), d(u)+l(uv) \}\). \\
+\textbf{Output:} distanze (e cammini minimi) fra r e gli altri nodi in V.
+\begin{itemize}
+    \item \emph{Inizializzazione:} Poni d(r) $=$ 0, d(v)$= \inf$, \(v \in V \setminus \{r \} i= 0, S_0 = \{r \}\). 
+    \item \emph{Iterazione i:} \(\forall v \in V \setminus S_i\) poni \(d(v)= \min \{ d(v), d(u)+l(uv) \}\). \\
 Sia $v \in V \setminus S_i$ il vertice per cui d(v) è minimo. \\
-Poni \(i=i +1, S_i=S\ped{i-1} \cup \{ v\}\). \\
-\emph{Stop:} Quando $i= |V-1|$.
-%...
+Poni \(i=i +1, S_i=S\ped{i-1} \cup \{ v\}\). 
+    \item \emph{Stop:} Quando $i= |V-1|$.
+\end{itemize}
 
 
 \newpage

@@ -10,8 +10,17 @@ Raccolta di appunti del corso di algebra e matematica discreta (2017/2018), univ
 4. Quarta lezione: Grafi bipartiti e isomorfi.
 5. Quinta lezione: Foreste, alberi e cammini.
 6. Sesta lezione: Grafi planari.
-7. Settima lezione: Circuiti Hamiltoniani.
-8. Ottava lezione: Calcolo combinatorio.
+7. Settima e ottava lezione: Circuiti Hamiltoniani.
+8. Esercizi sui grafi.
+9. Nona lezione: Calcolo combinatorio.
+10. Decima lezione:
+11. Undicesima lezione:
+12. Dodicesima lezione:
+13. Tredicesima lezione:
+14. Quattordicesima lezione:
+15. Quindicesima lezione:
+
+Nell'ultimo foglio si trovano gli argomenti del corso elencati dal professore.
 
 ## NdA
 Ogni contributo è ben accetto. 

@@ -33,6 +33,7 @@ Definizioni:
     \sum{v \in V} d(v) = \sum{v \in V_d} d(v) + \sum{v \in V_p} d(v)
     \end{equation} \\
 
+    \noindent
     \textit{NdA:} la sommatoria dei gradi di tutti i vertici è un multiplo di 2, poichè essa è equivalente a \( 2 \mid E \mid\). Ne consegue che se dividiamo i vertici per grado dispari e pari entrambi i risultati delle sommatorie dovranno essere pari (Ex: $2 +4$ è pari , $5+2$ è dispari). \\
     La prima sommatoria è fatta da vertici con grado dispari che possono essere per esempio, $3,5, \dots$ \\ 
     Quando vengono sommati due numeri dispari se ne ottiene uno pari, ma se invece sommassimo 3 numeri dispari avremmo un risultato dispari. (Ex: $3+3$ è pari, $3+3+3$ è dispari). Nella seconda sommatoria non ci interessa sapere quant'è la quantità di gradi che si hanno effettivamente perchè ne risulterà sempre una somma pari.\\
@@ -58,12 +59,12 @@ Definizioni:
 \textbf{Pari, dispari:} parità della lunghezza, cioè se la quantità del numero di archi è pari o dispari. \\
 \textbf{Connesso:} per ogni coppia di vertici esiste un
 cammino che li collega \\
-\textbf{Percorso:} sequenza di vertici \textsc{NON NECESSARIAMENTE} distinti, dove ogni coppia di vertici
+\textbf{Percorso:} sequenza di vertici \textsc{non necessariamente} distinti, dove ogni coppia di vertici
 consecutivi nel percorso è collegata da un arco. (Cioè è una maniera di attraversare parte del
 grafo, possibilmente passando più di una volta per lo stesso vertice o arco). Un percorso è \emph{chiuso}
 se le estremità coincidono.
 
-\paragraph{Teorema:} Dato un percorso con estremità \( v\ped{1}, v\ped{n} \) esiste un cammino con estremità \( v\ped{1}, v\ped{n} \) 
+\paragraph{Teorema:} Dato un percorso con estremità \( v\ped{1}, v\ped{n} \) esiste un cammino con estremità \( v\ped{1}, v\ped{n} \).
 \paragraph{Teorema:} Un percorso chiuso di lunghezza dispari contiene un ciclo di lunghezza dispari. \\
 Se gli unici vertici coincidenti sono le estremità allora il percorso è un ciclo dispari. Altrimenti il percorso si partiziona in due percorsi di lunghezza minore, uno pari e l'altro dispari.
 
@@ -75,22 +76,21 @@ Se gli unici vertici coincidenti sono le estremità allora il percorso è un cic
 \textbf{Albero:} Foresta connessa. \\
 Un grafo è K-regolare se ogni nodo ha grado k. I grafi 3-regolari si chiamano \textsc{grafi cubici}. \\
 
-
-\textbf{Disegnare un grafo} 
- Un "disegno" di un grafo ne illustra le proprietà. Ma i "disegni" dello stesso grafo sono molteplici. Noi
+\noindent
+\textbf{Disegnare un grafo:} un "disegno" di un grafo ne illustra le proprietà. Ma i "disegni" dello stesso grafo sono molteplici. Noi
 diremo che due grafi sono \emph{isomorfi} se uno è il disegno dell'altro. \\
 Formalmente, G(V,E) e G’(V’, E’) sono isomorfi se esiste una biezione F: che porta V in V’ e che preserva le
 adiacenze. Cioè uv è un arco di G se e solo se f(u)f(v) è un arco di G’. \\
-\textbf{Multigrafi} Finora abbiamo visto grafi SEMPLICI, perche' fra ogni coppia di vertici c'è al massimo un arco. In generale possono esserci ARCHI PARALLELI, cioè archi che hanno le stesse estremità e CAPPI: Archi
-con le estremità coincidenti. Tali grafi si dicono MULTIGRAFI. \\
-\textit{GRADO DI UN NODO:} I cappi contribuiscono 2 al grado dell'unica estremità.\\
-\textbf{Sottografi:} Un sottografo di un grafo G(V,E) è un grafo G'(V', E') con V'$\subseteq$ V e E'$\subseteq$ E. \\
+\textbf{Multigrafi:} finora abbiamo visto grafi semplici, perchè fra ogni coppia di vertici c'è al massimo un arco. In generale possono esserci archi paralleli, cioè archi che hanno le stesse estremità e cappi: Archi
+con le estremità coincidenti. Tali grafi si dicono multigrafi. \\
+\textit{Grado di un nodo:} I cappi contribuiscono 2 al grado dell'unica estremità.\\
+\textbf{Sottografi:} un sottografo di un grafo G(V,E) è un grafo G'(V', E') con V'$\subseteq$ V e E'$\subseteq$ E. \\
 Dato G(V,E) un suo sottografo G'(V',E') si dice \textsc{indotto} da V' se E' è il sottoinsieme di archi in E con entrambe le estremità in V'. Cioè per ogni arco (u,v) $\in$ E, se u $\in$ V' e v $\in$ V' allora (u,v) $\in$ E'. 
 
 \subsection{Grafi orientati}
 \textsc{Definizione:} un grafo orientato è una coppia D(V,A), dove: \\
 \( V={ v\ped{1}, ...,v\ped{n}} \) è un insieme finito di nodi o vertici. \\
-L'insieme A di archi è un insieme di coppie \emph{ORDINATE} di vertici. \\
+L'insieme A di archi è un insieme di coppie \emph{ordinate} di vertici. \\
 Un arco ha un senso di percorrenza(che si indica con una freccia), dalla testa alla coda. \\
 
 Nodo iniziale e finale di uno arco $=$ coda e testa dell'arco
@@ -131,7 +131,7 @@ Per ogni grafo orientato D(V,A) vale:
 
 Un arco uv un contribuisce 1 a d\ap{out}(v) e 1 a d\ap{in}(v)
 
-\paragraph{Tornei:} Un \textit{TORNEO} è un grafo orientato in cui per ogni coppia di vertici esiste \textsc{ESATTEMENTE} uno degli archi uv , uv. \\
+\paragraph{Tornei:} Un \textit{torneo} è un grafo orientato in cui per ogni coppia di vertici esiste \textsc{esattamente} uno degli archi uv , uv. \\
 (Si chiamano tornei (tournaments) perche indicano gli esiti di un torneo e il senso di ogni arco indica l'esito dell'incontro fra i giocatori rappresentati dai suoi estremi).
 
 \subsubsection{Rappresentazione di grafi mediante matrici}
