@@ -2,19 +2,58 @@
 
 Data una procedura con n oggetti, si vuole contare il numero di modi di eseguirla.\\
 $a_n =$ numero di modi di eseguire la procedura con n oggetti ($n \geq 0$)\\
-$a_0, a_1, a_2, \dots a_n, \dots $: successione di numeri da determinare
+$a_0, a_1, a_2, \dots a_n, \dots $: successione di numeri da determinare.
 
 \subsection{Relazioni di ricorrenza} 
-formula ricorsiva che esprime $a_n$ in funzione dei
-precedenti termini della successione: \\
-Soluzione di una relazione di ricorrenza %uguale
- formula esplicita per $a_n$ , che dipende solo
-da n.
+La relazione di ricorrenza è una formula ricorsiva che esprime $a_n$ in funzione dei
+precedenti termini della successione:
+\[ \left\{ 
+    \begin{array}{rcl} 
+    a_n = f(a_0, a_1, a_2, \dots , a\ped{n-1}, n) \\
+    a_0= \dots \\
+    a_1 = \dots 
+    \end{array} \]    
+
+In cui $a_0$ e $a_1$ sono condizioni iniziali.   \\
+Soluzione di una relazione di ricorrenza $=$ formula esplicita per $a_n$ , che dipende solo da n.
 
 \subsection{Esempi}
 
+\paragraph{Es. 1} Permutazioni di n oggetti distinti
+
+\paragraph{Es. 2} Contare il numero di modi di salire una scala con n gradini, se siamo in grado di fare passi da
+uno o due gradini: \textit{relazione di Fibonacci}
+
+\paragraph{Es. 3} Calcolare il numero di confronti necessari per trovare l'elemento
+massimo di una sequenza di lunghezza n (supponendo che n sia una potenza
+di 2).
+
+\paragraph{Es. 4} Torre di Hanoi\\
+\textit{Problema:} spostare la torre di dischi dal piolo A al piolo C.\\
+\textit{Regole:}
+\begin{itemize}
+    \item si può spostare un solo disco alla volta;
+    \item si può muovere un disco solo se è il primo della sua pila (quello più in alto);
+    \item un disco spostato può essere appoggiato solo su un piolo vuoto o sopra un disco di
+raggio maggiore.
+\end{itemize}
+
+\paragraph{Es. 5} Evoluzione di un capitale investito in banca con tasso di interesse 5\%.
+
+\paragraph{Es. 6} I modi di selezionare k membri di un comitato presi fra n persone sono i modi di
+selezionare il comitato in cui il sig. Rossi non è presente (k persone prese fra $n-1) + i$ modi di
+selezionare il comitato in cui il sig. Rossi E' presente ($k-1$ persone prese fra $n-1$).
+(Alla base della costruzione del triangolo di Pascal).
 
 \subsection{Dividi e conquista}
+Ordinamento di una lista di n numeri, o algoritmo di merge sort: data una serie di numeri, li divido a metà in modo ricorrente e ordino ogni parte divisa per poi riunirla alle altre.\\ 
+\textit{Esempio:} \\
+1 9 5 2    3 8 7 4 \\
+$\Downarrow$  $\Downarrow$\\
+1 2 5 9    3 4 7 8 \\
+$\Downarrow$  $\Downarrow$\\
+1 2 3 4 5 7 8 9 \\
+
 
 \subsection{Relazioni lineari omogenee}
 

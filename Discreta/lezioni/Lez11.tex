@@ -1,8 +1,12 @@
 \section{Undicesima lezione: Disposizioni con ripetizione}
 
-\subsection{Disposizioni con ripetizione} 
-Le disposizioni con ripetizioni sono tutti i possibili ordinamenti di oggetti alcuni dei quali indistinguibili. \\
-\textbf{Esempio:} Quante sono le disposizioni delle lettere della parola BANANA?
+Le disposizioni con ripetizioni sono tutti i possibili ordinamenti di oggetti, alcuni dei quali indistinguibili. 
+
+\noindent
+\textbf{Esempio:} Quante sono le disposizioni delle lettere della parola BANANA? \\
+Le lettere da assegnare ai 6 posti disponibili sono una B, due N e tre A. Avrei delle combinazioni quali
+\smallskip
+\( \binom{6}{1}, \binom{5}{2}, \binom{3}{3} = \frac{6!}{1! 5!} \frac{5!}{2! 3!} \frac{3!}{3! 0!} = \frac{6!}{1! 2! 3!}\)
 
 \paragraph{Teorema} 
 Abbiamo n oggetti, di cui
@@ -13,23 +17,33 @@ Abbiamo n oggetti, di cui
     \item $r_m$ del tipo m (identici)
 \end{itemize}
 con $r_1 + r_2 + ... + r_m = n$. \\
-Il numero delle disposizioni di questi n oggetti è:
+Il numero delle disposizioni di questi n oggetti è:\\
+\smallskip
+\( \binom{n}{r_1} \binom{n-r_1}{r_2} \binom{n-r_1-r_2}{r_3} \dots  \binom{r_m}{r_m} = \frac{n!}{r_1 ! r_2 ! \dots r_m !} \) \\
+Numero di disposizioni con ripetizione 
+%dimostrazione
 
 
 \subsection{Selezioni con ripetizione}
-\textit{Esempio:} In quanti modi possiamo selezionare 6 caffè tra le varietà:
-liscio, macchiato, lungo?
+\textit{Esempio:} In quanti modi possiamo selezionare 6 caffè tra le varietà: liscio, macchiato, lungo? \\
+
 
 \paragraph{Teorema}
-Il numero di selezioni con ripetizione di r oggetti scelti tra n varietà è:
-%coeff binom
+Il numero di selezioni con ripetizione di r oggetti scelti tra n varietà è: \\
+\smallskip
+\( \binom{r + n -1}{r}= \binom{r+n-1}{n-1}= \) numero di selezioni con ripetizione \\
 = numero di soluzioni intere della equazione
-%sistema di equazioni
+\[ \left\{ 
+    \begin{array}{rcl} 
+    x_1 + x_2 + \dots + x_n = r \\
+    x_1, x_2, \dots, x_n \geq 0
+\end{array} 
+\right\} \]
 
-\paragraph{Esempio} %2
-$x_1 = $numero di caffè lisci
-$x_2 = $numero di caffè macchiati
-$x_3 = $numero di caffè lunghi
+\textit{Esempio} \\ %2 
+$x_1 = $numero di caffè lisci \\
+$x_2 = $numero di caffè macchiati \\
+$x_3 = $numero di caffè lunghi \\
 Le selezioni di 6 caffè tra 3 varietà sono tante quante le soluzioni intere della equazione
 
 \paragraph{Esempio} %5

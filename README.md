@@ -13,12 +13,12 @@ Raccolta di appunti del corso di algebra e matematica discreta (2017/2018), univ
 7. Settima e ottava lezione: Circuiti Hamiltoniani.
 8. Esercizi sui grafi.
 9. Nona lezione: Calcolo combinatorio.
-10. Decima lezione:
-11. Undicesima lezione:
-12. Dodicesima lezione:
-13. Tredicesima lezione:
-14. Quattordicesima lezione:
-15. Quindicesima lezione:
+10. Decima lezione: Coefficenti binomiali.
+11. Undicesima lezione: Disposizioni con ripetizione.
+12. Dodicesima lezione: Esercizi.
+13. Tredicesima lezione: Relazioni di ricorrenza.
+14. Quattordicesima lezione: Relazioni dividi e conquista.
+15. Quindicesima lezione: Esercizio.
 
 Nell'ultimo foglio si trovano gli argomenti del corso elencati dal professore.
 
